@@ -76,6 +76,7 @@ flour {
 
 water {
     texture: water-based liquid
+    water: 100%
 }
 
 vegetable oil {
@@ -86,13 +87,15 @@ vegetable oil {
 
 That is, each ingredient is defined by its name and an accompanying block of properties. The following properties are allowed:
 
-- **texture:** The texture of the ingredient. Possible values:
+- The **texture** of an ingredient can be specified. Possible values are:
 
   ```
   solid, powder, oil-based liquid, water-based liquid, gas
   ```
 
 - There is an array of nutrient information properties which are described by the percentage of that nutrient in the ingredient. Possible properties are: **fat, carbohydrate, fiber, sugar, protein.** The default value is 0%.
+
+- The relative **water** content of an ingredient can also be specified. The default value is 0%.
 
 
 
