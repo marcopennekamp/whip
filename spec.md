@@ -66,7 +66,7 @@ An **ingredient knowledge base** (`.ingredients`) is a configuration file in whi
 
 ```
 flour {
-    consistency: powder
+    texture: powder
     fat: 0.7%
     carbohydrate: 76%
     fiber: 2.7%
@@ -75,11 +75,11 @@ flour {
 }
 
 water {
-    consistency: water-based liquid
+    texture: water-based liquid
 }
 
 vegetable oil {
-    consistency: oil-based liquid
+    texture: oil-based liquid
     fat: 100%
 }
 ```
