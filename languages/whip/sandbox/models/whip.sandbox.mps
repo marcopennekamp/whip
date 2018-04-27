@@ -17,14 +17,11 @@
       <concept id="2030988144087943900" name="whip.structure.IngredientReference" flags="ng" index="3biWSC">
         <reference id="2030988144087943901" name="ingredient" index="3biWSD" />
       </concept>
-      <concept id="2030988144087909107" name="whip.structure.MilliLiterAmount" flags="ng" index="3bj4o7">
-        <property id="2030988144087909108" name="amount" index="3bj4o0" />
-      </concept>
-      <concept id="2030988144087842050" name="whip.structure.GramAmount" flags="ng" index="3bjjBQ">
-        <property id="2030988144087842051" name="amount" index="3bjjBR" />
-      </concept>
+      <concept id="2030988144087909107" name="whip.structure.UnitMilliLiter" flags="ng" index="3bj4o7" />
+      <concept id="2030988144087842050" name="whip.structure.UnitGrams" flags="ng" index="3bjjBQ" />
       <concept id="2030988144087841248" name="whip.structure.Ingredient" flags="ng" index="3bjjOk">
-        <child id="2030988144087841255" name="amount" index="3bjjOj" />
+        <property id="2030988144088347014" name="amount" index="3bhvlM" />
+        <child id="2030988144087841255" name="unit" index="3bjjOj" />
       </concept>
       <concept id="2030988144087804570" name="whip.structure.Recipe" flags="ng" index="3bjqTI">
         <child id="2030988144087967086" name="instructionLines" index="3biM6q" />
@@ -51,15 +48,13 @@
     </node>
     <node concept="3bjjOk" id="1KJxfjnoRmo" role="3bjjdh">
       <property role="TrG5h" value="flour" />
-      <node concept="3bjjBQ" id="1KJxfjnoRmv" role="3bjjOj">
-        <property role="3bjjBR" value="360" />
-      </node>
+      <property role="3bhvlM" value="360" />
+      <node concept="3bjjBQ" id="1KJxfjnqzTW" role="3bjjOj" />
     </node>
     <node concept="3bjjOk" id="1KJxfjnoWch" role="3bjjdh">
       <property role="TrG5h" value="water" />
-      <node concept="3bj4o7" id="1KJxfjnoYiD" role="3bjjOj">
-        <property role="3bj4o0" value="250" />
-      </node>
+      <property role="3bhvlM" value="250" />
+      <node concept="3bj4o7" id="1KJxfjnq$dc" role="3bjjOj" />
     </node>
   </node>
 </model>

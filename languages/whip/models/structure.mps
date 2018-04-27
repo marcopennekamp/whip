@@ -38,6 +38,9 @@
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
+      </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
@@ -70,55 +73,56 @@
   <node concept="1TIwiD" id="1KJxfjnoFBw">
     <property role="EcuMT" value="2030988144087841248" />
     <property role="TrG5h" value="Ingredient" />
+    <property role="3GE5qa" value="ingredients" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="1KJxfjnoFBB" role="1TKVEi">
       <property role="IQ2ns" value="2030988144087841255" />
       <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="amount" />
-      <ref role="20lvS9" node="1KJxfjnoFBD" resolve="AbstractAmount" />
+      <property role="20kJfa" value="unit" />
+      <ref role="20lvS9" node="1KJxfjnoFBD" resolve="AbstractUnit" />
     </node>
     <node concept="PrWs8" id="1KJxfjnp4ks" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
+    <node concept="1TJgyi" id="1KJxfjnqB66" role="1TKVEl">
+      <property role="IQ2nx" value="2030988144088347014" />
+      <property role="TrG5h" value="amount" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
   </node>
   <node concept="1TIwiD" id="1KJxfjnoFBD">
     <property role="EcuMT" value="2030988144087841257" />
-    <property role="TrG5h" value="AbstractAmount" />
+    <property role="TrG5h" value="AbstractUnit" />
     <property role="R5$K7" value="true" />
+    <property role="3GE5qa" value="units" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
   </node>
   <node concept="1TIwiD" id="1KJxfjnoFO2">
     <property role="EcuMT" value="2030988144087842050" />
-    <property role="TrG5h" value="GramAmount" />
-    <property role="34LRSv" value="gram" />
-    <ref role="1TJDcQ" node="1KJxfjnoFBD" resolve="AbstractAmount" />
-    <node concept="1TJgyi" id="1KJxfjnoFO3" role="1TKVEl">
-      <property role="IQ2nx" value="2030988144087842051" />
-      <property role="TrG5h" value="amount" />
-      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
-    </node>
+    <property role="TrG5h" value="UnitGrams" />
+    <property role="34LRSv" value="g" />
+    <property role="3GE5qa" value="units" />
+    <ref role="1TJDcQ" node="1KJxfjnoFBD" resolve="AbstractUnit" />
   </node>
   <node concept="1TIwiD" id="1KJxfjnoWbN">
     <property role="EcuMT" value="2030988144087909107" />
-    <property role="TrG5h" value="MilliLiterAmount" />
+    <property role="TrG5h" value="UnitMilliLiter" />
     <property role="34LRSv" value="ml" />
-    <ref role="1TJDcQ" node="1KJxfjnoFBD" resolve="AbstractAmount" />
-    <node concept="1TJgyi" id="1KJxfjnoWbO" role="1TKVEl">
-      <property role="IQ2nx" value="2030988144087909108" />
-      <property role="TrG5h" value="amount" />
-      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
-    </node>
+    <property role="3GE5qa" value="units" />
+    <ref role="1TJDcQ" node="1KJxfjnoFBD" resolve="AbstractUnit" />
   </node>
   <node concept="1TIwiD" id="1KJxfjnp4km">
     <property role="EcuMT" value="2030988144087942422" />
     <property role="TrG5h" value="Instruction" />
     <property role="R5$K7" value="true" />
+    <property role="3GE5qa" value="instructions" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
   </node>
   <node concept="1TIwiD" id="1KJxfjnp4kp">
     <property role="EcuMT" value="2030988144087942425" />
     <property role="TrG5h" value="AddInstruction" />
     <property role="34LRSv" value="add" />
+    <property role="3GE5qa" value="instructions" />
     <ref role="1TJDcQ" node="1KJxfjnp4km" resolve="Instruction" />
     <node concept="1TJgyj" id="1KJxfjnp4Fw" role="1TKVEi">
       <property role="IQ2ns" value="2030988144087943904" />
@@ -131,6 +135,7 @@
   <node concept="1TIwiD" id="1KJxfjnp4Fs">
     <property role="EcuMT" value="2030988144087943900" />
     <property role="TrG5h" value="IngredientReference" />
+    <property role="3GE5qa" value="ingredients" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="1KJxfjnp4Ft" role="1TKVEi">
       <property role="IQ2ns" value="2030988144087943901" />
@@ -143,6 +148,7 @@
   <node concept="1TIwiD" id="1KJxfjnpia5">
     <property role="EcuMT" value="2030988144087999109" />
     <property role="TrG5h" value="InstructionLine" />
+    <property role="3GE5qa" value="recipe" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="1KJxfjnpia6" role="1TKVEi">
       <property role="IQ2ns" value="2030988144087999110" />

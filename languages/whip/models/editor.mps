@@ -101,6 +101,9 @@
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
+      </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
@@ -163,6 +166,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="1KJxfjnoFBG">
+    <property role="3GE5qa" value="ingredients" />
     <ref role="1XX52x" to="zp1w:1KJxfjnoFBw" resolve="Ingredient" />
     <node concept="3EZMnI" id="1KJxfjnoFCB" role="2wV5jI">
       <node concept="3F0A7n" id="1KJxfjnp4Hg" role="3EZMnx">
@@ -170,28 +174,27 @@
       </node>
       <node concept="l2Vlx" id="1KJxfjnoFCC" role="2iSdaV" />
       <node concept="3F0ifn" id="1KJxfjnoFCF" role="3EZMnx">
-        <property role="3F0ifm" value=", " />
+        <property role="3F0ifm" value="," />
         <node concept="11L4FC" id="1KJxfjnoFCG" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
         <node concept="3mYdg7" id="1KJxfjnoFCH" role="3F10Kt">
           <property role="1413C4" value="body-paren" />
         </node>
-        <node concept="11LMrY" id="1KJxfjnoFCI" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
+        <node concept="11LMrY" id="1KJxfjnoFCI" role="3F10Kt" />
+      </node>
+      <node concept="3F0A7n" id="1KJxfjnqB6g" role="3EZMnx">
+        <ref role="1NtTu8" to="zp1w:1KJxfjnqB66" resolve="amount" />
       </node>
       <node concept="3F1sOY" id="1KJxfjnoFCM" role="3EZMnx">
-        <ref role="1NtTu8" to="zp1w:1KJxfjnoFBB" resolve="amount" />
+        <ref role="1NtTu8" to="zp1w:1KJxfjnoFBB" resolve="unit" />
       </node>
     </node>
   </node>
   <node concept="24kQdi" id="1KJxfjnoFOd">
-    <ref role="1XX52x" to="zp1w:1KJxfjnoFO2" resolve="GramAmount" />
+    <property role="3GE5qa" value="units" />
+    <ref role="1XX52x" to="zp1w:1KJxfjnoFO2" resolve="UnitGrams" />
     <node concept="3EZMnI" id="1KJxfjnoFP1" role="2wV5jI">
-      <node concept="3F0A7n" id="1KJxfjnoFP8" role="3EZMnx">
-        <ref role="1NtTu8" to="zp1w:1KJxfjnoFO3" resolve="amount" />
-      </node>
       <node concept="3F0ifn" id="1KJxfjnoFPe" role="3EZMnx">
         <property role="3F0ifm" value="g" />
       </node>
@@ -199,11 +202,9 @@
     </node>
   </node>
   <node concept="24kQdi" id="1KJxfjnoWbY">
-    <ref role="1XX52x" to="zp1w:1KJxfjnoWbN" resolve="MilliLiterAmount" />
+    <property role="3GE5qa" value="units" />
+    <ref role="1XX52x" to="zp1w:1KJxfjnoWbN" resolve="UnitMilliLiter" />
     <node concept="3EZMnI" id="1KJxfjnoWc0" role="2wV5jI">
-      <node concept="3F0A7n" id="1KJxfjnoWc7" role="3EZMnx">
-        <ref role="1NtTu8" to="zp1w:1KJxfjnoWbO" resolve="amount" />
-      </node>
       <node concept="3F0ifn" id="1KJxfjnoWcd" role="3EZMnx">
         <property role="3F0ifm" value="ml" />
       </node>
@@ -211,6 +212,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="1KJxfjnp4FF">
+    <property role="3GE5qa" value="instructions" />
     <ref role="1XX52x" to="zp1w:1KJxfjnp4kp" resolve="AddInstruction" />
     <node concept="3EZMnI" id="1KJxfjnp4FH" role="2wV5jI">
       <node concept="3F0ifn" id="1KJxfjnp4FO" role="3EZMnx">
@@ -225,6 +227,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="1KJxfjnpcQu">
+    <property role="3GE5qa" value="ingredients" />
     <ref role="1XX52x" to="zp1w:1KJxfjnp4Fs" resolve="IngredientReference" />
     <node concept="3EZMnI" id="1KJxfjnpcQw" role="2wV5jI">
       <node concept="1iCGBv" id="1KJxfjnpcQB" role="3EZMnx">
@@ -240,6 +243,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="1KJxfjnpiag">
+    <property role="3GE5qa" value="recipe" />
     <ref role="1XX52x" to="zp1w:1KJxfjnpia5" resolve="InstructionLine" />
     <node concept="3EZMnI" id="1KJxfjnpiai" role="2wV5jI">
       <node concept="3F2HdR" id="1KJxfjnpiap" role="3EZMnx">
@@ -259,6 +263,7 @@
   </node>
   <node concept="325Ffw" id="1KJxfjnpoHT">
     <property role="TrG5h" value="InstructionLine_Expand" />
+    <property role="3GE5qa" value="recipe" />
     <ref role="1chiOs" to="zp1w:1KJxfjnpia5" resolve="InstructionLine" />
     <node concept="2PxR9H" id="1KJxfjnpoHU" role="2QnnpI">
       <property role="2PxWOX" value="expand list" />
