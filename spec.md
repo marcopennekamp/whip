@@ -121,3 +121,26 @@ Shape dough. Optional: Moisten. Creates bread.
 Bake bread at 200C for 20 to 40 minutes.
 ```
 
+A recipe for **hummus pizza:**
+
+```
+recipe hummus pizza
+
+pizza dough as dough, 500g
+hummus, 200g
+mozzarella, 400g
+garlic, 2 cloves
+zucchini, 2 medium
+eggplant, 2 medium
+vegetable oil as oil
+
+Cut zucchini, eggplant into slices. Fry until lightly brown. Creates vegetable slices.
+
+Mince garlic. 
+Cut mozzarella into thin slices. 
+
+Spread dough. Spread hummus on it. Add garlic, mozzarella, vegetable slices. Creates pizza.
+
+Bake pizza at 220C for 15 to 20 minutes.
+```
+
