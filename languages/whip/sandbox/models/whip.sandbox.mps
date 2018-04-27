@@ -9,14 +9,16 @@
   <registry>
     <language id="feb4e5e0-84b4-4e2b-9f1d-56305190da21" name="whip">
       <concept id="1860828395704930398" name="whip.structure.UnitPack" flags="ng" index="08iRf" />
+      <concept id="1860828395705053589" name="whip.structure.CombineInstruction" flags="ng" index="09OK4" />
+      <concept id="1860828395705053590" name="whip.structure.IngredientInstruction" flags="ng" index="09OK7">
+        <child id="1860828395705053591" name="ingredients" index="09OK6" />
+      </concept>
       <concept id="1860828395705048951" name="whip.structure.UnitTablespoon" flags="ng" index="09QbA" />
       <concept id="1860828395705048950" name="whip.structure.UnitTeaspoon" flags="ng" index="09QbB" />
       <concept id="2030988144087999109" name="whip.structure.InstructionLine" flags="ng" index="3biEpL">
         <child id="2030988144087999110" name="instructions" index="3biEpM" />
       </concept>
-      <concept id="2030988144087942425" name="whip.structure.AddInstruction" flags="ng" index="3biW7H">
-        <child id="2030988144087943904" name="ingredients" index="3biWSk" />
-      </concept>
+      <concept id="2030988144087942425" name="whip.structure.AddInstruction" flags="ng" index="3biW7H" />
       <concept id="2030988144087943900" name="whip.structure.IngredientReference" flags="ng" index="3biWSC">
         <reference id="2030988144087943901" name="ingredient" index="3biWSD" />
       </concept>
@@ -40,11 +42,22 @@
   <node concept="3bjqTI" id="1KJxfjnoRmn">
     <property role="TrG5h" value="Bread" />
     <node concept="3biEpL" id="1KJxfjnplyV" role="3biM6q">
-      <node concept="3biW7H" id="1KJxfjnplyZ" role="3biEpM">
-        <node concept="3biWSC" id="1KJxfjnplz2" role="3biWSk">
+      <node concept="09OK4" id="1BiZp4pXyTT" role="3biEpM">
+        <node concept="3biWSC" id="1BiZp4pXyTZ" role="09OK6">
           <ref role="3biWSD" node="1KJxfjnoRmo" resolve="flour" />
         </node>
-        <node concept="3biWSC" id="1KJxfjnplz7" role="3biWSk">
+        <node concept="3biWSC" id="1BiZp4pXyU4" role="09OK6">
+          <ref role="3biWSD" node="1BiZp4pXm7s" resolve="baking powder" />
+        </node>
+        <node concept="3biWSC" id="1BiZp4pXyUc" role="09OK6">
+          <ref role="3biWSD" node="1BiZp4pXqlu" resolve="salt" />
+        </node>
+      </node>
+      <node concept="3biW7H" id="1KJxfjnplyZ" role="3biEpM">
+        <node concept="3biWSC" id="1BiZp4pXyUh" role="09OK6">
+          <ref role="3biWSD" node="1BiZp4pXqlC" resolve="vegetable oil" />
+        </node>
+        <node concept="3biWSC" id="1BiZp4pXxyb" role="09OK6">
           <ref role="3biWSD" node="1KJxfjnoWch" resolve="water" />
         </node>
       </node>

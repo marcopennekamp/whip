@@ -11,6 +11,7 @@
     <import index="tpen" ref="r:00000000-0000-4000-0000-011c895902c3(jetbrains.mps.baseLanguage.editor)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="tpco" ref="r:00000000-0000-4000-0000-011c89590284(jetbrains.mps.lang.core.editor)" implicit="true" />
+    <import index="q9rp" ref="r:dd807560-def2-44e4-b494-64724e110303(whip.behavior)" implicit="true" />
   </imports>
   <registry>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
@@ -24,6 +25,7 @@
       <concept id="1106270571710" name="jetbrains.mps.lang.editor.structure.CellLayout_Vertical" flags="nn" index="2iRkQZ" />
       <concept id="1237303669825" name="jetbrains.mps.lang.editor.structure.CellLayout_Indent" flags="nn" index="l2Vlx" />
       <concept id="1237307900041" name="jetbrains.mps.lang.editor.structure.IndentLayoutIndentStyleClassItem" flags="ln" index="lj46D" />
+      <concept id="1142886811589" name="jetbrains.mps.lang.editor.structure.ConceptFunctionParameter_node" flags="nn" index="pncrf" />
       <concept id="1237385578942" name="jetbrains.mps.lang.editor.structure.IndentLayoutOnNewLineStyleClassItem" flags="ln" index="pVoyu" />
       <concept id="1080736578640" name="jetbrains.mps.lang.editor.structure.BaseEditorComponent" flags="ig" index="2wURMF">
         <child id="1080736633877" name="cellModel" index="2wV5jI" />
@@ -79,6 +81,13 @@
       </concept>
       <concept id="1073389882823" name="jetbrains.mps.lang.editor.structure.CellModel_RefNode" flags="sg" stub="730538219795960754" index="3F1sOY" />
       <concept id="1073390211982" name="jetbrains.mps.lang.editor.structure.CellModel_RefNodeList" flags="sg" stub="2794558372793454595" index="3F2HdR" />
+      <concept id="1225898583838" name="jetbrains.mps.lang.editor.structure.ReadOnlyModelAccessor" flags="ng" index="1HfYo3">
+        <child id="1225898971709" name="getter" index="1Hhtcw" />
+      </concept>
+      <concept id="1225900081164" name="jetbrains.mps.lang.editor.structure.CellModel_ReadOnlyModelAccessor" flags="sg" stub="3708815482283559694" index="1HlG4h">
+        <child id="1225900141900" name="modelAccessor" index="1HlULh" />
+      </concept>
+      <concept id="1176717841777" name="jetbrains.mps.lang.editor.structure.QueryFunction_ModelAccess_Getter" flags="in" index="3TQlhw" />
       <concept id="1166049232041" name="jetbrains.mps.lang.editor.structure.AbstractComponent" flags="ng" index="1XWOmA">
         <reference id="1166049300910" name="conceptDeclaration" index="1XX52x" />
       </concept>
@@ -97,8 +106,12 @@
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
+      <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ng" index="1ndlxa">
+        <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
+      </concept>
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
+      <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
       <concept id="1139184414036" name="jetbrains.mps.lang.smodel.structure.LinkList_AddNewChildOperation" flags="nn" index="WFELt" />
       <concept id="1138056282393" name="jetbrains.mps.lang.smodel.structure.SLinkListAccess" flags="nn" index="3Tsc0h">
         <reference id="1138056546658" name="link" index="3TtcxE" />
@@ -200,21 +213,6 @@
       </node>
     </node>
   </node>
-  <node concept="24kQdi" id="1KJxfjnp4FF">
-    <property role="3GE5qa" value="instructions" />
-    <ref role="1XX52x" to="zp1w:1KJxfjnp4kp" resolve="AddInstruction" />
-    <node concept="3EZMnI" id="1KJxfjnp4FH" role="2wV5jI">
-      <node concept="3F0ifn" id="1KJxfjnp4FO" role="3EZMnx">
-        <property role="3F0ifm" value="Add" />
-      </node>
-      <node concept="3F2HdR" id="1KJxfjnp4G8" role="3EZMnx">
-        <property role="2czwfO" value="," />
-        <ref role="1NtTu8" to="zp1w:1KJxfjnp4Fw" resolve="ingredients" />
-        <node concept="2iRfu4" id="1KJxfjnp4H1" role="2czzBx" />
-      </node>
-      <node concept="l2Vlx" id="1KJxfjnp4FK" role="2iSdaV" />
-    </node>
-  </node>
   <node concept="24kQdi" id="1KJxfjnpcQu">
     <property role="3GE5qa" value="ingredients" />
     <ref role="1XX52x" to="zp1w:1KJxfjnp4Fs" resolve="IngredientReference" />
@@ -284,6 +282,34 @@
         <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
       </node>
       <node concept="l2Vlx" id="1BiZp4pWX1O" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="1BiZp4pXr6x">
+    <property role="3GE5qa" value="instructions" />
+    <ref role="1XX52x" to="zp1w:1BiZp4pXr6m" resolve="IngredientInstruction" />
+    <node concept="3EZMnI" id="1BiZp4pXr6z" role="2wV5jI">
+      <node concept="1HlG4h" id="1BiZp4pXrpb" role="3EZMnx">
+        <node concept="1HfYo3" id="1BiZp4pXrpd" role="1HlULh">
+          <node concept="3TQlhw" id="1BiZp4pXrpf" role="1Hhtcw">
+            <node concept="3clFbS" id="1BiZp4pXrph" role="2VODD2">
+              <node concept="3clFbF" id="1BiZp4pXrxZ" role="3cqZAp">
+                <node concept="2OqwBi" id="1BiZp4pXrJQ" role="3clFbG">
+                  <node concept="pncrf" id="1BiZp4pXrxY" role="2Oq$k0" />
+                  <node concept="2qgKlT" id="1BiZp4pXs7a" role="2OqNvi">
+                    <ref role="37wK5l" to="q9rp:1BiZp4pXr79" resolve="action" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3F2HdR" id="1BiZp4pXr6_" role="3EZMnx">
+        <property role="2czwfO" value="," />
+        <ref role="1NtTu8" to="zp1w:1BiZp4pXr6n" resolve="ingredients" />
+        <node concept="2iRfu4" id="1BiZp4pXr6A" role="2czzBx" />
+      </node>
+      <node concept="l2Vlx" id="1BiZp4pXr6B" role="2iSdaV" />
     </node>
   </node>
 </model>

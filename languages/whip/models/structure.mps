@@ -15,6 +15,7 @@
       </concept>
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="6714410169261853888" name="conceptId" index="EcuMT" />
+        <property id="4628067390765956807" name="final" index="R5$K2" />
         <property id="4628067390765956802" name="abstract" index="R5$K7" />
         <property id="5092175715804935370" name="conceptAlias" index="34LRSv" />
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
@@ -124,16 +125,9 @@
   <node concept="1TIwiD" id="1KJxfjnp4kp">
     <property role="EcuMT" value="2030988144087942425" />
     <property role="TrG5h" value="AddInstruction" />
-    <property role="34LRSv" value="add" />
+    <property role="34LRSv" value="Add" />
     <property role="3GE5qa" value="instructions" />
-    <ref role="1TJDcQ" node="1KJxfjnp4km" resolve="Instruction" />
-    <node concept="1TJgyj" id="1KJxfjnp4Fw" role="1TKVEi">
-      <property role="IQ2ns" value="2030988144087943904" />
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="ingredients" />
-      <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" node="1KJxfjnp4Fs" resolve="IngredientReference" />
-    </node>
+    <ref role="1TJDcQ" node="1BiZp4pXr6m" resolve="IngredientInstruction" />
   </node>
   <node concept="1TIwiD" id="1KJxfjnp4Fs">
     <property role="EcuMT" value="2030988144087943900" />
@@ -185,6 +179,28 @@
   <node concept="Az7Fb" id="1BiZp4pXqI4">
     <property role="TrG5h" value="real" />
     <property role="FLfZY" value="-?[0-9]+(\\.[0-9]+)?" />
+  </node>
+  <node concept="1TIwiD" id="1BiZp4pXr6l">
+    <property role="EcuMT" value="1860828395705053589" />
+    <property role="3GE5qa" value="instructions" />
+    <property role="TrG5h" value="CombineInstruction" />
+    <property role="34LRSv" value="Combine" />
+    <ref role="1TJDcQ" node="1BiZp4pXr6m" resolve="IngredientInstruction" />
+  </node>
+  <node concept="1TIwiD" id="1BiZp4pXr6m">
+    <property role="EcuMT" value="1860828395705053590" />
+    <property role="3GE5qa" value="instructions" />
+    <property role="TrG5h" value="IngredientInstruction" />
+    <property role="R5$K7" value="true" />
+    <property role="R5$K2" value="false" />
+    <ref role="1TJDcQ" node="1KJxfjnp4km" resolve="Instruction" />
+    <node concept="1TJgyj" id="1BiZp4pXr6n" role="1TKVEi">
+      <property role="IQ2ns" value="1860828395705053591" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="ingredients" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="1KJxfjnp4Fs" resolve="IngredientReference" />
+    </node>
   </node>
 </model>
 
