@@ -10,6 +10,7 @@
     <import index="tpch" ref="r:00000000-0000-4000-0000-011c8959028d(jetbrains.mps.lang.structure.editor)" />
     <import index="tpen" ref="r:00000000-0000-4000-0000-011c895902c3(jetbrains.mps.baseLanguage.editor)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
+    <import index="tpco" ref="r:00000000-0000-4000-0000-011c89590284(jetbrains.mps.lang.core.editor)" implicit="true" />
   </imports>
   <registry>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
@@ -36,6 +37,9 @@
         <property id="1136923970224" name="keycode" index="2PWKIS" />
       </concept>
       <concept id="1136917288805" name="jetbrains.mps.lang.editor.structure.CellKeyMap_ExecuteFunction" flags="in" index="2PzhpH" />
+      <concept id="1078939183254" name="jetbrains.mps.lang.editor.structure.CellModel_Component" flags="sg" stub="3162947552742194261" index="PMmxH">
+        <reference id="1078939183255" name="editorComponent" index="PMmxG" />
+      </concept>
       <concept id="1186414536763" name="jetbrains.mps.lang.editor.structure.BooleanStyleSheetItem" flags="ln" index="VOi$J">
         <property id="1186414551515" name="flag" index="VOm3f" />
       </concept>
@@ -196,26 +200,6 @@
       </node>
     </node>
   </node>
-  <node concept="24kQdi" id="1KJxfjnoFOd">
-    <property role="3GE5qa" value="units" />
-    <ref role="1XX52x" to="zp1w:1KJxfjnoFO2" resolve="UnitGrams" />
-    <node concept="3EZMnI" id="1KJxfjnoFP1" role="2wV5jI">
-      <node concept="3F0ifn" id="1KJxfjnoFPe" role="3EZMnx">
-        <property role="3F0ifm" value="g" />
-      </node>
-      <node concept="l2Vlx" id="1KJxfjnoFP4" role="2iSdaV" />
-    </node>
-  </node>
-  <node concept="24kQdi" id="1KJxfjnoWbY">
-    <property role="3GE5qa" value="units" />
-    <ref role="1XX52x" to="zp1w:1KJxfjnoWbN" resolve="UnitMilliLiter" />
-    <node concept="3EZMnI" id="1KJxfjnoWc0" role="2wV5jI">
-      <node concept="3F0ifn" id="1KJxfjnoWcd" role="3EZMnx">
-        <property role="3F0ifm" value="ml" />
-      </node>
-      <node concept="l2Vlx" id="1KJxfjnoWc3" role="2iSdaV" />
-    </node>
-  </node>
   <node concept="24kQdi" id="1KJxfjnp4FF">
     <property role="3GE5qa" value="instructions" />
     <ref role="1XX52x" to="zp1w:1KJxfjnp4kp" resolve="AddInstruction" />
@@ -290,6 +274,16 @@
           </node>
         </node>
       </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="1BiZp4pWX1J">
+    <property role="3GE5qa" value="units" />
+    <ref role="1XX52x" to="zp1w:1KJxfjnoFBD" resolve="AbstractUnit" />
+    <node concept="3EZMnI" id="1BiZp4pWX1L" role="2wV5jI">
+      <node concept="PMmxH" id="1BiZp4pWX1S" role="3EZMnx">
+        <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+      </node>
+      <node concept="l2Vlx" id="1BiZp4pWX1O" role="2iSdaV" />
     </node>
   </node>
 </model>
