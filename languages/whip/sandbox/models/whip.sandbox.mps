@@ -9,6 +9,8 @@
   <registry>
     <language id="feb4e5e0-84b4-4e2b-9f1d-56305190da21" name="whip">
       <concept id="1860828395704930398" name="whip.structure.UnitPack" flags="ng" index="08iRf" />
+      <concept id="1860828395705048951" name="whip.structure.UnitTablespoon" flags="ng" index="09QbA" />
+      <concept id="1860828395705048950" name="whip.structure.UnitTeaspoon" flags="ng" index="09QbB" />
       <concept id="2030988144087999109" name="whip.structure.InstructionLine" flags="ng" index="3biEpL">
         <child id="2030988144087999110" name="instructions" index="3biEpM" />
       </concept>
@@ -57,10 +59,20 @@
       <property role="3bhvlM" value="1" />
       <node concept="08iRf" id="1BiZp4pXm7y" role="3bjjOj" />
     </node>
+    <node concept="3bjjOk" id="1BiZp4pXqlu" role="3bjjdh">
+      <property role="TrG5h" value="salt" />
+      <property role="3bhvlM" value="1" />
+      <node concept="09QbB" id="1BiZp4pXqlA" role="3bjjOj" />
+    </node>
     <node concept="3bjjOk" id="1KJxfjnoWch" role="3bjjdh">
       <property role="TrG5h" value="water" />
       <property role="3bhvlM" value="250" />
       <node concept="3bj4o7" id="1KJxfjnq$dc" role="3bjjOj" />
+    </node>
+    <node concept="3bjjOk" id="1BiZp4pXqlC" role="3bjjdh">
+      <property role="TrG5h" value="vegetable oil" />
+      <property role="3bhvlM" value="1" />
+      <node concept="09QbA" id="1BiZp4pXqlM" role="3bjjOj" />
     </node>
   </node>
 </model>

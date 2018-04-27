@@ -165,5 +165,19 @@
     <property role="34LRSv" value="pack" />
     <ref role="1TJDcQ" node="1KJxfjnoFBD" resolve="AbstractUnit" />
   </node>
+  <node concept="1TIwiD" id="1BiZp4pXpXQ">
+    <property role="EcuMT" value="1860828395705048950" />
+    <property role="3GE5qa" value="units" />
+    <property role="TrG5h" value="UnitTeaspoon" />
+    <property role="34LRSv" value="tsp" />
+    <ref role="1TJDcQ" node="1KJxfjnoFBD" resolve="AbstractUnit" />
+  </node>
+  <node concept="1TIwiD" id="1BiZp4pXpXR">
+    <property role="EcuMT" value="1860828395705048951" />
+    <property role="3GE5qa" value="units" />
+    <property role="TrG5h" value="UnitTablespoon" />
+    <property role="34LRSv" value="tbsp" />
+    <ref role="1TJDcQ" node="1KJxfjnoFBD" resolve="AbstractUnit" />
+  </node>
 </model>
 
