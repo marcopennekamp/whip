@@ -61,7 +61,7 @@
     </node>
     <node concept="3bjjOk" id="1BiZp4pXqlu" role="3bjjdh">
       <property role="TrG5h" value="salt" />
-      <property role="3bhvlM" value="1" />
+      <property role="3bhvlM" value="1.25" />
       <node concept="09QbB" id="1BiZp4pXqlA" role="3bjjOj" />
     </node>
     <node concept="3bjjOk" id="1KJxfjnoWch" role="3bjjdh">
