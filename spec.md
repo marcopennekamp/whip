@@ -24,7 +24,7 @@ An additional feature of Whip is the **recipe query.** You can load a set of rec
 
 A **recipe** (`.whip`) consists of the following program elements:
 
-- The **file structure** (dictated by MPS) looks as follows:
+- The **file structure** (as implemented in MPS) looks as follows:
 
   ```
   <header>
