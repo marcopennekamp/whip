@@ -16,11 +16,29 @@ Using Whip, you can write recipes and compile them to HTML. There are a few feat
 
 An additional feature of Whip is the **recipe query.** You can load a set of recipes and then ask the system to give you all recipes that match some or all of your criteria. The following criteria can be specified: Ingredients available to you, the desired nutrition content, the category of the recipe.
 
+*Note that the syntax is implemented with the projectional language workbench MPS. While the syntax is fundamentally textual, the projectional editor allows a much more guided editing experience. The grammar used in this document is only significant for illustration purposes.* 
+
 
 
 ## Recipe Syntax
 
 A **recipe** (`.whip`) consists of the following program elements:
+
+- The **file structure** (dictated by MPS) looks as follows:
+
+  ```
+  <header>
+
+  ingredients:
+    <ingredient>
+    <ingredient>
+    ...
+
+  instructions:
+    <instruction-line>
+    <instruction-line>
+    ...
+  ```
 
 - The **header** describes information about the recipe, such as the *title:*
 
@@ -36,13 +54,11 @@ A **recipe** (`.whip`) consists of the following program elements:
 
   The *name* and *alias* may contain spaces. *Amount* may be any floating point number (in the future, we will support fractions). *Unit* may be any defined unit (currently hardcoded) that makes sense for the given ingredient.
 
-- **Instructions** are also declared line-by-line, but more complex. There are three kinds of instruction levels:
+- **Instructions** are also declared line-by-line, but more complex. There are two kinds of instruction levels:
 
-  - An **instruction block** combines multiple instruction lines to a single block that will be printed in a single paragraph. Instruction blocks are delimited by a blank line.
+  - An **instruction line** is a sequence of instructions (delimited by `.`) that refer to the same **context.** Instruction lines are delimited by a single line break.
 
-  - An **instruction line** is a sequence of instructions (delimited by `.`) that refers to the same **context.** Instruction lines are delimited by a single line break.
-
-  - Finally, an **instruction** tells the cook to do something with a set of ingredients. The syntax is:
+  - An **instruction** tells the cook to do something with a set of ingredients. The syntax is:
 
     ```
     instruction  -> [modifiers] <action> ingredients [affixes]
@@ -65,27 +81,24 @@ All names are **case-insensitive.**
 An **ingredient knowledge base** (`.ingredients`) is a configuration file in which the user can configure their ingredients. The file structure can be demonstrated by a simple example:
 
 ```
-flour {
-    texture: powder
-    fat: 0.7%
-    carbohydrate: 76%
-    fiber: 2.7%
-    sugar: 0.3%
-    protein: 10%
-}
+flour:
+  texture: powder
+  fat: 0.7%
+  carbohydrate: 76%
+  fiber: 2.7%
+  sugar: 0.3%
+  protein: 10%
 
-water {
-    texture: water-based liquid
-    water: 100%
-}
+water:
+  texture: water-based liquid
+  water: 100%
 
-vegetable oil {
-    texture: oil-based liquid
-    fat: 100%
-}
+vegetable oil:
+  texture: oil-based liquid
+  fat: 100%
 ```
 
-That is, each ingredient is defined by its name and an accompanying block of properties. The following properties are allowed:
+That is, each ingredient is defined by its name and an accompanying list of properties. The following properties are allowed:
 
 - The **texture** of an ingredient can be specified. Possible values are:
 
@@ -103,44 +116,42 @@ That is, each ingredient is defined by its name and an accompanying block of pro
 
 ## Example Recipes
 
-A recipe for **bread:**
+A recipe for **Bread:**
 
 ```
-recipe bread
+recipe Bread
 
-flour, 360 g
-baking powder, 1 pack
-salt, 1.25 tsp
-water, 250 ml
-vegetable oil as oil, 1 tbsp
+ingredients:
+  flour, 360 g
+  baking powder, 1 pack
+  salt, 1.25 tsp
+  water, 250 ml
+  vegetable oil as oil, 1 tbsp
 
-Combine flour, salt, baking powder. Add oil, water. Stir until combined. Creates dough.
-
-Shape dough. Optional: Moisten. Creates bread.
-
-Bake bread at 200C for 20 to 40 minutes.
+instructions:
+  Combine flour, salt, baking powder. Add oil, water. Stir until combined. Creates dough.
+  Shape dough. Optional: Moisten. Creates bread.
+  Bake bread at 200C for 20 to 40 minutes.
 ```
 
-A recipe for **hummus pizza:**
+A recipe for **Hummus Pizza:**
 
 ```
-recipe hummus pizza
+recipe Hummus Pizza
 
-pizza dough as dough, 500g
-hummus, 200g
-mozzarella, 400g
-garlic, 2 cloves
-zucchini, 2 medium
-eggplant, 2 medium
-vegetable oil as oil
+ingredients:
+  pizza dough as dough, 500g
+  hummus, 200g
+  mozzarella, 400g
+  garlic, 2 cloves
+  zucchini, 2 medium
+  eggplant, 2 medium
+  vegetable oil as oil
 
-Cut zucchini, eggplant into slices. Fry until lightly brown. Creates vegetable slices.
-
-Mince garlic. 
-Cut mozzarella into thin slices. 
-
-Spread dough. Spread hummus on it. Add garlic, mozzarella, vegetable slices. Creates pizza.
-
-Bake pizza at 220C for 15 to 20 minutes.
+instructions:
+  Cut zucchini, eggplant into slices. Fry until lightly brown. Creates vegetable slices.
+  Mince garlic. Cut mozzarella into thin slices.
+  Spread dough. Spread hummus on it. Add garlic, mozzarella, vegetable slices. Creates pizza.
+  Bake pizza at 220C for 15 to 20 minutes.
 ```
 
