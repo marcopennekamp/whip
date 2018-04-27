@@ -45,14 +45,14 @@ A **recipe** (`.whip`) consists of the following program elements:
   - Finally, an **instruction** tells the cook to do something with a set of ingredients. The syntax is:
 
     ```
-    instruction  -> [modifiers] <action> ingredients [attributes]
+    instruction  -> [modifiers] <action> ingredients [affixes]
                   | "creates" <name>
     modifiers    -> <modifier> {"," <modifier>} ":"
     ingredients  -> <name> {"," <name>}
-    attributes   -> <conjunction> <value> {"," <conjunction> <value>}
+    affixes      -> <affix> <value> {<affix> <value>}
     ```
 
-    ***Actions*** are pre-defined verbs which can be applied to ingredients. We will define the set of actions at a later time. **Modifiers** alter the instruction in some way. The modifier `optional` makes the instruction optional, for example. **Attributes** provide expected values to an action, like supplying arguments to a function call. For example,  `until combined` states that the action should be performed until the current mixture is combined.
+    **Actions** are pre-defined verbs which can be applied to ingredients. We will define the set of actions at a later time. **Modifiers** alter the instruction in some way. The modifier `optional` makes the instruction optional, for example. **Affixes** provide expected values to an action, like supplying arguments to a function call. For example,  `until combined` states that the action should be performed until the current mixture is combined.
 
 We have yet to talk about the **context** concept mentioned above. A context defined in an instruction line is a mixture that is created by performing the instructions in the line.  The **creates** instruction declares a new variable name which should refer to the mixture. This name can then be used in subsequent instructions.
 
