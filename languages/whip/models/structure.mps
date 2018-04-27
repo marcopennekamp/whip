@@ -62,9 +62,9 @@
     <node concept="1TJgyj" id="1KJxfjnpalI" role="1TKVEi">
       <property role="IQ2ns" value="2030988144087967086" />
       <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="instructions" />
+      <property role="20kJfa" value="instructionLines" />
       <property role="20lbJX" value="1..n" />
-      <ref role="20lvS9" node="1KJxfjnp4km" resolve="Instruction" />
+      <ref role="20lvS9" node="1KJxfjnpia5" resolve="InstructionLine" />
     </node>
   </node>
   <node concept="1TIwiD" id="1KJxfjnoFBw">
@@ -123,7 +123,7 @@
     <node concept="1TJgyj" id="1KJxfjnp4Fw" role="1TKVEi">
       <property role="IQ2ns" value="2030988144087943904" />
       <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="references" />
+      <property role="20kJfa" value="ingredients" />
       <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="1KJxfjnp4Fs" resolve="IngredientReference" />
     </node>
@@ -138,6 +138,18 @@
       <property role="20kJfa" value="ingredient" />
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="1KJxfjnoFBw" resolve="Ingredient" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1KJxfjnpia5">
+    <property role="EcuMT" value="2030988144087999109" />
+    <property role="TrG5h" value="InstructionLine" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="1KJxfjnpia6" role="1TKVEi">
+      <property role="IQ2ns" value="2030988144087999110" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="instructions" />
+      <property role="20lbJX" value="1..n" />
+      <ref role="20lvS9" node="1KJxfjnp4km" resolve="Instruction" />
     </node>
   </node>
 </model>
