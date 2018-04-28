@@ -202,5 +202,12 @@
       <ref role="20lvS9" node="1KJxfjnp4Fs" resolve="IngredientReference" />
     </node>
   </node>
+  <node concept="1TIwiD" id="1BiZp4pXyUo">
+    <property role="EcuMT" value="1860828395705085592" />
+    <property role="3GE5qa" value="instructions" />
+    <property role="TrG5h" value="ShapeInstruction" />
+    <property role="34LRSv" value="Shape" />
+    <ref role="1TJDcQ" node="1BiZp4pXr6m" resolve="IngredientInstruction" />
+  </node>
 </model>
 
