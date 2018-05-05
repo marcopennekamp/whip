@@ -8,9 +8,8 @@
   <component name="ChangeListManager">
     <list default="true" id="21489694-8da7-4417-8380-3d32d344fbed" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.mps/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.mps/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/whip/models/behavior.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/whip/models/behavior.mps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/whip/models/editor.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/whip/models/editor.mps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/whip/models/structure.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/whip/models/structure.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/whip/models/constraints.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/whip/models/constraints.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/whip/sandbox/models/whip.sandbox.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/whip/sandbox/models/whip.sandbox.mps" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -110,7 +109,7 @@
                 <foldable />
                 <restoreAlways />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:14123f17-6cd6-458b-b066-57bb706c9233(whip.sandbox)/2030988144087889303" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:14123f17-6cd6-458b-b066-57bb706c9233(whip.sandbox)/2030988144087889303" saveSessionState="false" viewPositionX="0" viewPositionY="62">
                 <selectionStack />
                 <errorMarkers />
                 <transactionalProperties />
@@ -122,28 +121,40 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Shape" pinned="false" current-in-tab="false">
-        <entry file="mps://node://whip/whip.structure/Shape">
+      <file leaf-file-name="Creates" pinned="false" current-in-tab="false">
+        <entry file="mps://node://whip/whip.structure/Creates">
           <provider selected="true" editor-type-id="MPSFileEditor">
             <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
               <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
                 <selectionStack>
                   <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                     <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretX" value="15" />
-                    <property name="caretXRelative" value="0" />
+                    <property name="caretX" value="39" />
+                    <property name="caretXRelative" value="8" />
                     <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="Constant_ueqr71_d0">
-                      <node node_reference="r:52ee01ab-922b-45b8-b769-e1f38403c874(whip.structure)/1860828395705085592" />
+                    <cellInfo cellId="Constant_trik0f_c1a">
+                      <node node_reference="r:b95b4fda-b02f-41f7-9a38-3a9794179f06(whip.constraints)/2620569832669653428" />
                     </cellInfo>
                   </stackElement>
                 </selectionStack>
                 <errorMarkers />
                 <transactionalProperties />
-                <foldable />
-                <restoreAlways />
+                <foldable>
+                  <collapsedElement isCollapsed="false">
+                    <cellIdElement cellId="Collection_trik0f_b0">
+                      <node node_reference="r:b95b4fda-b02f-41f7-9a38-3a9794179f06(whip.constraints)/2620569832669653428" />
+                    </cellIdElement>
+                  </collapsedElement>
+                </foldable>
+                <restoreAlways>
+                  <collapsedElement isCollapsed="false">
+                    <cellIdElement cellId="Collection_trik0f_b0">
+                      <node node_reference="r:b95b4fda-b02f-41f7-9a38-3a9794179f06(whip.constraints)/2620569832669653428" />
+                    </cellIdElement>
+                  </collapsedElement>
+                </restoreAlways>
               </memento>
-              <inspectorMemento currentlyEditedNode="r:14123f17-6cd6-458b-b066-57bb706c9233(whip.sandbox)/2030988144087889303" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:14123f17-6cd6-458b-b066-57bb706c9233(whip.sandbox)/2030988144087889303" saveSessionState="false" viewPositionX="0" viewPositionY="62">
                 <selectionStack />
                 <errorMarkers />
                 <transactionalProperties />
@@ -151,75 +162,7 @@
                 <restoreAlways />
                 <enabledHints />
               </inspectorMemento>
-              <node node_ref="r:52ee01ab-922b-45b8-b769-e1f38403c874(whip.structure)/1860828395705085592" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InstructionWithIngredients" pinned="false" current-in-tab="false">
-        <entry file="mps://node://whip/whip.structure/InstructionWithIngredients">
-          <provider selected="true" editor-type-id="MPSFileEditor">
-            <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
-              <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-                <selectionStack>
-                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                    <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretX" value="159" />
-                    <property name="caretXRelative" value="128" />
-                    <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="Constant_ueqr71_a1c0">
-                      <node node_reference="r:52ee01ab-922b-45b8-b769-e1f38403c874(whip.structure)/1860828395705053590" />
-                    </cellInfo>
-                  </stackElement>
-                </selectionStack>
-                <errorMarkers />
-                <transactionalProperties />
-                <foldable />
-                <restoreAlways />
-              </memento>
-              <inspectorMemento currentlyEditedNode="r:14123f17-6cd6-458b-b066-57bb706c9233(whip.sandbox)/2030988144087889303" saveSessionState="false" viewPositionX="0" viewPositionY="0">
-                <selectionStack />
-                <errorMarkers />
-                <transactionalProperties />
-                <foldable />
-                <restoreAlways />
-                <enabledHints />
-              </inspectorMemento>
-              <node node_ref="r:52ee01ab-922b-45b8-b769-e1f38403c874(whip.structure)/1860828395705053590" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Instruction" pinned="false" current-in-tab="false">
-        <entry file="mps://node://whip/whip.structure/Instruction">
-          <provider selected="true" editor-type-id="MPSFileEditor">
-            <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
-              <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-                <selectionStack>
-                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                    <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretX" value="183" />
-                    <property name="caretXRelative" value="32" />
-                    <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="name">
-                      <node node_reference="r:52ee01ab-922b-45b8-b769-e1f38403c874(whip.structure)/2030988144087942422" />
-                    </cellInfo>
-                  </stackElement>
-                </selectionStack>
-                <errorMarkers />
-                <transactionalProperties />
-                <foldable />
-                <restoreAlways />
-              </memento>
-              <inspectorMemento currentlyEditedNode="r:14123f17-6cd6-458b-b066-57bb706c9233(whip.sandbox)/2030988144087889303" saveSessionState="false" viewPositionX="0" viewPositionY="0">
-                <selectionStack />
-                <errorMarkers />
-                <transactionalProperties />
-                <foldable />
-                <restoreAlways />
-                <enabledHints />
-              </inspectorMemento>
-              <node node_ref="r:52ee01ab-922b-45b8-b769-e1f38403c874(whip.structure)/2030988144087942422" />
+              <node node_ref="r:b95b4fda-b02f-41f7-9a38-3a9794179f06(whip.constraints)/2620569832669653377" />
             </state>
           </provider>
         </entry>
@@ -245,7 +188,7 @@
                 <foldable />
                 <restoreAlways />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:14123f17-6cd6-458b-b066-57bb706c9233(whip.sandbox)/2030988144087889303" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:14123f17-6cd6-458b-b066-57bb706c9233(whip.sandbox)/2030988144087889303" saveSessionState="false" viewPositionX="0" viewPositionY="62">
                 <selectionStack />
                 <errorMarkers />
                 <transactionalProperties />
@@ -266,10 +209,10 @@
                 <selectionStack>
                   <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                     <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretX" value="79" />
+                    <property name="caretX" value="15" />
                     <property name="caretXRelative" value="0" />
                     <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="name">
+                    <cellInfo cellId="Constant_ueqr71_d0">
                       <node node_reference="r:52ee01ab-922b-45b8-b769-e1f38403c874(whip.structure)/1860828395705048950" />
                     </cellInfo>
                   </stackElement>
@@ -279,7 +222,7 @@
                 <foldable />
                 <restoreAlways />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:14123f17-6cd6-458b-b066-57bb706c9233(whip.sandbox)/2030988144087889303" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:14123f17-6cd6-458b-b066-57bb706c9233(whip.sandbox)/2030988144087889303" saveSessionState="false" viewPositionX="0" viewPositionY="62">
                 <selectionStack />
                 <errorMarkers />
                 <transactionalProperties />
@@ -313,7 +256,7 @@
                 <foldable />
                 <restoreAlways />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:14123f17-6cd6-458b-b066-57bb706c9233(whip.sandbox)/2030988144087889303" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:14123f17-6cd6-458b-b066-57bb706c9233(whip.sandbox)/2030988144087889303" saveSessionState="false" viewPositionX="0" viewPositionY="62">
                 <selectionStack />
                 <errorMarkers />
                 <transactionalProperties />
@@ -347,7 +290,7 @@
                 <foldable />
                 <restoreAlways />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:14123f17-6cd6-458b-b066-57bb706c9233(whip.sandbox)/2030988144087889303" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:14123f17-6cd6-458b-b066-57bb706c9233(whip.sandbox)/2030988144087889303" saveSessionState="false" viewPositionX="0" viewPositionY="62">
                 <selectionStack />
                 <errorMarkers />
                 <transactionalProperties />
@@ -381,7 +324,7 @@
                 <foldable />
                 <restoreAlways />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:14123f17-6cd6-458b-b066-57bb706c9233(whip.sandbox)/2030988144087889303" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:14123f17-6cd6-458b-b066-57bb706c9233(whip.sandbox)/2030988144087889303" saveSessionState="false" viewPositionX="0" viewPositionY="62">
                 <selectionStack />
                 <errorMarkers />
                 <transactionalProperties />
@@ -415,7 +358,7 @@
                 <foldable />
                 <restoreAlways />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:14123f17-6cd6-458b-b066-57bb706c9233(whip.sandbox)/2030988144087889303" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:14123f17-6cd6-458b-b066-57bb706c9233(whip.sandbox)/2030988144087889303" saveSessionState="false" viewPositionX="0" viewPositionY="62">
                 <selectionStack />
                 <errorMarkers />
                 <transactionalProperties />
@@ -548,7 +491,43 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="r:52ee01ab-922b-45b8-b769-e1f38403c874(whip.structure) in IdeaFile[file:///Users/marcopennekamp/Work/whip/languages/whip/models/structure.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="instructions" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="feb4e5e0-84b4-4e2b-9f1d-56305190da21(whip)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="r:dd807560-def2-44e4-b494-64724e110303(whip.behavior) in IdeaFile[file:///Users/marcopennekamp/Work/whip/languages/whip/models/behavior.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="feb4e5e0-84b4-4e2b-9f1d-56305190da21(whip)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:52ee01ab-922b-45b8-b769-e1f38403c874(whip.structure) in IdeaFile[file:///Users/marcopennekamp/Work/whip/languages/whip/models/structure.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="units" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -583,60 +562,8 @@
               <option name="myItemId" value="r:b9cf3f97-11d4-4877-95d5-4fff9da30585(whip.editor) in IdeaFile[file:///Users/marcopennekamp/Work/whip/languages/whip/models/editor.mps]" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="b1d597ee-52b2-4f1d-87fa-73aae046ccb9" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="whip" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:14123f17-6cd6-458b-b066-57bb706c9233(whip.sandbox) in IdeaFile[file:///Users/marcopennekamp/Work/whip/languages/whip/sandbox/models/whip.sandbox.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="b1d597ee-52b2-4f1d-87fa-73aae046ccb9" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="whip" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="feb4e5e0-84b4-4e2b-9f1d-56305190da21(whip)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:dd807560-def2-44e4-b494-64724e110303(whip.behavior) in IdeaFile[file:///Users/marcopennekamp/Work/whip/languages/whip/models/behavior.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="instructions" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -663,16 +590,18 @@
               <option name="myItemId" value="Project" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="feb4e5e0-84b4-4e2b-9f1d-56305190da21(whip)" />
+              <option name="myItemId" value="Project" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="r:52ee01ab-922b-45b8-b769-e1f38403c874(whip.structure) in IdeaFile[file:///Users/marcopennekamp/Work/whip/languages/whip/models/structure.mps]" />
+              <option name="myItemId" value="b1d597ee-52b2-4f1d-87fa-73aae046ccb9" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ingredients" />
+              <option name="myItemId" value="whip" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -683,6 +612,80 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="b1d597ee-52b2-4f1d-87fa-73aae046ccb9" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="whip" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:14123f17-6cd6-458b-b066-57bb706c9233(whip.sandbox) in IdeaFile[file:///Users/marcopennekamp/Work/whip/languages/whip/sandbox/models/whip.sandbox.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="feb4e5e0-84b4-4e2b-9f1d-56305190da21(whip)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:dd807560-def2-44e4-b494-64724e110303(whip.behavior) in IdeaFile[file:///Users/marcopennekamp/Work/whip/languages/whip/models/behavior.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="instructions" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="feb4e5e0-84b4-4e2b-9f1d-56305190da21(whip)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:b9cf3f97-11d4-4877-95d5-4fff9da30585(whip.editor) in IdeaFile[file:///Users/marcopennekamp/Work/whip/languages/whip/models/editor.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="feb4e5e0-84b4-4e2b-9f1d-56305190da21(whip)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:b95b4fda-b02f-41f7-9a38-3a9794179f06(whip.constraints) in IdeaFile[file:///Users/marcopennekamp/Work/whip/languages/whip/models/constraints.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="b1d597ee-52b2-4f1d-87fa-73aae046ccb9" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="feb4e5e0-84b4-4e2b-9f1d-56305190da21(whip)" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -713,22 +716,8 @@
               <option name="myItemId" value="r:b95b4fda-b02f-41f7-9a38-3a9794179f06(whip.constraints) in IdeaFile[file:///Users/marcopennekamp/Work/whip/languages/whip/models/constraints.mps]" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="feb4e5e0-84b4-4e2b-9f1d-56305190da21(whip)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:52ee01ab-922b-45b8-b769-e1f38403c874(whip.structure) in IdeaFile[file:///Users/marcopennekamp/Work/whip/languages/whip/models/structure.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="units" />
+              <option name="myItemId" value="instructions" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -746,35 +735,7 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="instructions" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="feb4e5e0-84b4-4e2b-9f1d-56305190da21(whip)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:b9cf3f97-11d4-4877-95d5-4fff9da30585(whip.editor) in IdeaFile[file:///Users/marcopennekamp/Work/whip/languages/whip/models/editor.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="instructions" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="feb4e5e0-84b4-4e2b-9f1d-56305190da21(whip)" />
+              <option name="myItemId" value="ingredients" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -1493,80 +1454,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="mps://node://whip/whip.structure/AddInstruction">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
-          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="103" />
-                <property name="caretXRelative" value="24" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="name">
-                  <node node_reference="r:52ee01ab-922b-45b8-b769-e1f38403c874(whip.structure)/2030988144087942425" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:52ee01ab-922b-45b8-b769-e1f38403c874(whip.structure)/1860828395704930398" saveSessionState="false" viewPositionX="0" viewPositionY="62">
-            <selectionStack />
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-            <enabledHints />
-          </inspectorMemento>
-          <node node_ref="r:52ee01ab-922b-45b8-b769-e1f38403c874(whip.structure)/2030988144087942425" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://whip/whip.structure/CombineInstruction">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
-          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="135" />
-                <property name="caretXRelative" value="56" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="name">
-                  <node node_reference="r:52ee01ab-922b-45b8-b769-e1f38403c874(whip.structure)/1860828395705053589" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:b9cf3f97-11d4-4877-95d5-4fff9da30585(whip.editor)/2030988144087999129" saveSessionState="false" viewPositionX="0" viewPositionY="62">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="179" />
-                <property name="caretXRelative" value="0" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="empty_keyMap">
-                  <node node_reference="r:b9cf3f97-11d4-4877-95d5-4fff9da30585(whip.editor)/2030988144087999129" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-            <enabledHints />
-          </inspectorMemento>
-          <node node_ref="r:52ee01ab-922b-45b8-b769-e1f38403c874(whip.structure)/1860828395705053589" />
-        </state>
-      </provider>
-    </entry>
     <entry file="mps://node://whip/whip.structure/Ingredient">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
@@ -1599,38 +1486,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="mps://node://whip/whip.structure/&lt;no name&gt;[ConceptDeclaration]">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
-          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="135" />
-                <property name="caretXRelative" value="56" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="name">
-                  <node node_reference="r:52ee01ab-922b-45b8-b769-e1f38403c874(whip.structure)/2620569832669513982" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:52ee01ab-922b-45b8-b769-e1f38403c874(whip.structure)/2030988144087909107" saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-            <enabledHints />
-          </inspectorMemento>
-          <node node_ref="r:52ee01ab-922b-45b8-b769-e1f38403c874(whip.structure)/2620569832669513982" />
-        </state>
-      </provider>
-    </entry>
     <entry file="mps://node://whip/whip.structure/Instruction">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
@@ -1651,7 +1506,7 @@
             <foldable />
             <restoreAlways />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:14123f17-6cd6-458b-b066-57bb706c9233(whip.sandbox)/2030988144087889303" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:52ee01ab-922b-45b8-b769-e1f38403c874(whip.structure)/2030988144087909107" saveSessionState="false" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <transactionalProperties />
@@ -1660,102 +1515,6 @@
             <enabledHints />
           </inspectorMemento>
           <node node_ref="r:52ee01ab-922b-45b8-b769-e1f38403c874(whip.structure)/2030988144087942422" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://whip/whip.structure/IngredientInstruction">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
-          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="159" />
-                <property name="caretXRelative" value="128" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="Constant_ueqr71_a1c0">
-                  <node node_reference="r:52ee01ab-922b-45b8-b769-e1f38403c874(whip.structure)/1860828395705053590" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:14123f17-6cd6-458b-b066-57bb706c9233(whip.sandbox)/2030988144087889303" saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-            <enabledHints />
-          </inspectorMemento>
-          <node node_ref="r:52ee01ab-922b-45b8-b769-e1f38403c874(whip.structure)/1860828395705053590" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://whip/whip.structure/ShapeInstruction">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
-          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="15" />
-                <property name="caretXRelative" value="0" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="Constant_ueqr71_d0">
-                  <node node_reference="r:52ee01ab-922b-45b8-b769-e1f38403c874(whip.structure)/1860828395705085592" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:14123f17-6cd6-458b-b066-57bb706c9233(whip.sandbox)/2030988144087889303" saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-            <enabledHints />
-          </inspectorMemento>
-          <node node_ref="r:52ee01ab-922b-45b8-b769-e1f38403c874(whip.structure)/1860828395705085592" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://whip/whip.structure/UnitGrams">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
-          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="79" />
-                <property name="caretXRelative" value="0" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="name">
-                  <node node_reference="r:52ee01ab-922b-45b8-b769-e1f38403c874(whip.structure)/2030988144087842050" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:14123f17-6cd6-458b-b066-57bb706c9233(whip.sandbox)/2030988144087889303" saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-            <enabledHints />
-          </inspectorMemento>
-          <node node_ref="r:52ee01ab-922b-45b8-b769-e1f38403c874(whip.structure)/2030988144087842050" />
         </state>
       </provider>
     </entry>
@@ -1779,7 +1538,7 @@
             <foldable />
             <restoreAlways />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:14123f17-6cd6-458b-b066-57bb706c9233(whip.sandbox)/2030988144087889303" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:14123f17-6cd6-458b-b066-57bb706c9233(whip.sandbox)/2030988144087889303" saveSessionState="false" viewPositionX="0" viewPositionY="62">
             <selectionStack />
             <errorMarkers />
             <transactionalProperties />
@@ -1811,7 +1570,7 @@
             <foldable />
             <restoreAlways />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:14123f17-6cd6-458b-b066-57bb706c9233(whip.sandbox)/2030988144087889303" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:14123f17-6cd6-458b-b066-57bb706c9233(whip.sandbox)/2030988144087889303" saveSessionState="false" viewPositionX="0" viewPositionY="62">
             <selectionStack />
             <errorMarkers />
             <transactionalProperties />
@@ -1843,7 +1602,7 @@
             <foldable />
             <restoreAlways />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:14123f17-6cd6-458b-b066-57bb706c9233(whip.sandbox)/2030988144087889303" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:14123f17-6cd6-458b-b066-57bb706c9233(whip.sandbox)/2030988144087889303" saveSessionState="false" viewPositionX="0" viewPositionY="62">
             <selectionStack />
             <errorMarkers />
             <transactionalProperties />
@@ -1852,38 +1611,6 @@
             <enabledHints />
           </inspectorMemento>
           <node node_ref="r:52ee01ab-922b-45b8-b769-e1f38403c874(whip.structure)/1860828395705048951" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://whip/whip.structure/UnitTeaspoon">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
-          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="79" />
-                <property name="caretXRelative" value="0" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="name">
-                  <node node_reference="r:52ee01ab-922b-45b8-b769-e1f38403c874(whip.structure)/1860828395705048950" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:14123f17-6cd6-458b-b066-57bb706c9233(whip.sandbox)/2030988144087889303" saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-            <enabledHints />
-          </inspectorMemento>
-          <node node_ref="r:52ee01ab-922b-45b8-b769-e1f38403c874(whip.structure)/1860828395705048950" />
         </state>
       </provider>
     </entry>
@@ -1907,7 +1634,7 @@
             <foldable />
             <restoreAlways />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:14123f17-6cd6-458b-b066-57bb706c9233(whip.sandbox)/2030988144087889303" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:14123f17-6cd6-458b-b066-57bb706c9233(whip.sandbox)/2030988144087889303" saveSessionState="false" viewPositionX="0" viewPositionY="62">
             <selectionStack />
             <errorMarkers />
             <transactionalProperties />
@@ -1916,6 +1643,281 @@
             <enabledHints />
           </inspectorMemento>
           <node node_ref="r:52ee01ab-922b-45b8-b769-e1f38403c874(whip.structure)/2030988144087841257" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://whip/whip.structure/AddInstruction">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState" editorFocused="true">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="175" />
+                <property name="caretXRelative" value="24" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_name">
+                  <node node_reference="r:dd807560-def2-44e4-b494-64724e110303(whip.behavior)/1860828395705082644" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_fao2ea_a">
+                  <node node_reference="r:dd807560-def2-44e4-b494-64724e110303(whip.behavior)/1860828395705082655" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_6lfqqa_b0">
+                  <node node_reference="r:dd807560-def2-44e4-b494-64724e110303(whip.behavior)/1860828395705082645" />
+                </cellIdElement>
+              </collapsedElement>
+            </foldable>
+            <restoreAlways />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:dd807560-def2-44e4-b494-64724e110303(whip.behavior)/1860828395705082644" saveSessionState="false" viewPositionX="0" viewPositionY="62">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints />
+          </inspectorMemento>
+          <node node_ref="r:dd807560-def2-44e4-b494-64724e110303(whip.behavior)/1860828395705082644" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://whip/whip.structure/ShapeInstruction">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState" editorFocused="true">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="191" />
+                <property name="caretXRelative" value="40" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_name">
+                  <node node_reference="r:dd807560-def2-44e4-b494-64724e110303(whip.behavior)/1860828395705085593" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_fao2ea_a">
+                  <node node_reference="r:dd807560-def2-44e4-b494-64724e110303(whip.behavior)/1860828395705085604" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_6lfqqa_b0">
+                  <node node_reference="r:dd807560-def2-44e4-b494-64724e110303(whip.behavior)/1860828395705085594" />
+                </cellIdElement>
+              </collapsedElement>
+            </foldable>
+            <restoreAlways />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:dd807560-def2-44e4-b494-64724e110303(whip.behavior)/1860828395705085593" saveSessionState="false" viewPositionX="0" viewPositionY="62">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints />
+          </inspectorMemento>
+          <node node_ref="r:dd807560-def2-44e4-b494-64724e110303(whip.behavior)/1860828395705085593" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://whip/whip.structure/IngredientInstruction">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState" editorFocused="true">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="359" />
+                <property name="caretXRelative" value="208" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_name">
+                  <node node_reference="r:dd807560-def2-44e4-b494-64724e110303(whip.behavior)/1860828395705053630" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_6lfqqa_b0">
+                  <node node_reference="r:dd807560-def2-44e4-b494-64724e110303(whip.behavior)/1860828395705053631" />
+                </cellIdElement>
+              </collapsedElement>
+            </foldable>
+            <restoreAlways />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:dd807560-def2-44e4-b494-64724e110303(whip.behavior)/1860828395705053630" saveSessionState="false" viewPositionX="0" viewPositionY="62">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints />
+          </inspectorMemento>
+          <node node_ref="r:dd807560-def2-44e4-b494-64724e110303(whip.behavior)/1860828395705053630" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://whip/whip.structure/UnitGrams">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="79" />
+                <property name="caretXRelative" value="0" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="name">
+                  <node node_reference="r:52ee01ab-922b-45b8-b769-e1f38403c874(whip.structure)/2030988144087842050" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:14123f17-6cd6-458b-b066-57bb706c9233(whip.sandbox)/2030988144087889303" saveSessionState="false" viewPositionX="0" viewPositionY="62">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints />
+          </inspectorMemento>
+          <node node_ref="r:52ee01ab-922b-45b8-b769-e1f38403c874(whip.structure)/2030988144087842050" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://whip/whip.structure/CombineInstruction">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState" editorFocused="true">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="207" />
+                <property name="caretXRelative" value="56" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_name">
+                  <node node_reference="r:dd807560-def2-44e4-b494-64724e110303(whip.behavior)/1860828395705080804" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_fao2ea_a">
+                  <node node_reference="r:dd807560-def2-44e4-b494-64724e110303(whip.behavior)/1860828395705080815" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_6lfqqa_b0">
+                  <node node_reference="r:dd807560-def2-44e4-b494-64724e110303(whip.behavior)/1860828395705080805" />
+                </cellIdElement>
+              </collapsedElement>
+            </foldable>
+            <restoreAlways />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:dd807560-def2-44e4-b494-64724e110303(whip.behavior)/1860828395705080804" saveSessionState="false" viewPositionX="0" viewPositionY="62">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints />
+          </inspectorMemento>
+          <node node_ref="r:dd807560-def2-44e4-b494-64724e110303(whip.behavior)/1860828395705080804" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://whip/whip.structure/UnitTeaspoon">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="15" />
+                <property name="caretXRelative" value="0" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="Constant_ueqr71_d0">
+                  <node node_reference="r:52ee01ab-922b-45b8-b769-e1f38403c874(whip.structure)/1860828395705048950" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:14123f17-6cd6-458b-b066-57bb706c9233(whip.sandbox)/2030988144087889303" saveSessionState="false" viewPositionX="0" viewPositionY="62">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints />
+          </inspectorMemento>
+          <node node_ref="r:52ee01ab-922b-45b8-b769-e1f38403c874(whip.structure)/1860828395705048950" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://whip/whip.structure/&lt;no name&gt;[ConceptDeclaration]">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="39" />
+                <property name="caretXRelative" value="8" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="Constant_trik0f_c1a">
+                  <node node_reference="r:b95b4fda-b02f-41f7-9a38-3a9794179f06(whip.constraints)/2620569832669653428" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_trik0f_b0">
+                  <node node_reference="r:b95b4fda-b02f-41f7-9a38-3a9794179f06(whip.constraints)/2620569832669653428" />
+                </cellIdElement>
+              </collapsedElement>
+            </foldable>
+            <restoreAlways>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_trik0f_b0">
+                  <node node_reference="r:b95b4fda-b02f-41f7-9a38-3a9794179f06(whip.constraints)/2620569832669653428" />
+                </cellIdElement>
+              </collapsedElement>
+            </restoreAlways>
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:14123f17-6cd6-458b-b066-57bb706c9233(whip.sandbox)/2030988144087889303" saveSessionState="false" viewPositionX="0" viewPositionY="62">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints />
+          </inspectorMemento>
+          <node node_ref="r:b95b4fda-b02f-41f7-9a38-3a9794179f06(whip.constraints)/2620569832669653377" />
         </state>
       </provider>
     </entry>
@@ -1939,7 +1941,7 @@
             <foldable />
             <restoreAlways />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:14123f17-6cd6-458b-b066-57bb706c9233(whip.sandbox)/2030988144087889303" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:14123f17-6cd6-458b-b066-57bb706c9233(whip.sandbox)/2030988144087889303" saveSessionState="false" viewPositionX="0" viewPositionY="62">
             <selectionStack />
             <errorMarkers />
             <transactionalProperties />
