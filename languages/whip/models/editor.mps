@@ -276,7 +276,7 @@
   </node>
   <node concept="24kQdi" id="1BiZp4pWX1J">
     <property role="3GE5qa" value="units" />
-    <ref role="1XX52x" to="zp1w:1KJxfjnoFBD" resolve="AbstractUnit" />
+    <ref role="1XX52x" to="zp1w:1KJxfjnoFBD" resolve="Unit" />
     <node concept="3EZMnI" id="1BiZp4pWX1L" role="2wV5jI">
       <node concept="PMmxH" id="1BiZp4pWX1S" role="3EZMnx">
         <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
@@ -286,7 +286,7 @@
   </node>
   <node concept="24kQdi" id="1BiZp4pXr6x">
     <property role="3GE5qa" value="instructions" />
-    <ref role="1XX52x" to="zp1w:1BiZp4pXr6m" resolve="IngredientInstruction" />
+    <ref role="1XX52x" to="zp1w:1BiZp4pXr6m" resolve="InstructionWithIngredients" />
     <node concept="3EZMnI" id="1BiZp4pXr6z" role="2wV5jI">
       <node concept="1HlG4h" id="1BiZp4pXrpb" role="3EZMnx">
         <node concept="1HfYo3" id="1BiZp4pXrpd" role="1HlULh">
@@ -314,7 +314,7 @@
   </node>
   <node concept="24kQdi" id="2hu8A3xnK$h">
     <property role="3GE5qa" value="instructions" />
-    <ref role="1XX52x" to="zp1w:2hu8A3xnKzY" resolve="CreatesInstruction" />
+    <ref role="1XX52x" to="zp1w:2hu8A3xnKzY" resolve="Creates" />
     <node concept="3EZMnI" id="2hu8A3xnK$j" role="2wV5jI">
       <node concept="3F0ifn" id="2hu8A3xnK$p" role="3EZMnx">
         <property role="3F0ifm" value="Creates" />

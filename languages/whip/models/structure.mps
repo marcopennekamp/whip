@@ -83,7 +83,7 @@
       <property role="IQ2ns" value="2030988144087841255" />
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="unit" />
-      <ref role="20lvS9" node="1KJxfjnoFBD" resolve="AbstractUnit" />
+      <ref role="20lvS9" node="1KJxfjnoFBD" resolve="Unit" />
     </node>
     <node concept="1TJgyi" id="1KJxfjnqB66" role="1TKVEl">
       <property role="IQ2nx" value="2030988144088347014" />
@@ -93,24 +93,24 @@
   </node>
   <node concept="1TIwiD" id="1KJxfjnoFBD">
     <property role="EcuMT" value="2030988144087841257" />
-    <property role="TrG5h" value="AbstractUnit" />
+    <property role="TrG5h" value="Unit" />
     <property role="R5$K7" value="true" />
     <property role="3GE5qa" value="units" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
   </node>
   <node concept="1TIwiD" id="1KJxfjnoFO2">
     <property role="EcuMT" value="2030988144087842050" />
-    <property role="TrG5h" value="UnitGrams" />
+    <property role="TrG5h" value="Grams" />
     <property role="34LRSv" value="g" />
     <property role="3GE5qa" value="units" />
-    <ref role="1TJDcQ" node="1KJxfjnoFBD" resolve="AbstractUnit" />
+    <ref role="1TJDcQ" node="1KJxfjnoFBD" resolve="Unit" />
   </node>
   <node concept="1TIwiD" id="1KJxfjnoWbN">
     <property role="EcuMT" value="2030988144087909107" />
-    <property role="TrG5h" value="UnitMilliLiter" />
+    <property role="TrG5h" value="Milliliter" />
     <property role="34LRSv" value="ml" />
     <property role="3GE5qa" value="units" />
-    <ref role="1TJDcQ" node="1KJxfjnoFBD" resolve="AbstractUnit" />
+    <ref role="1TJDcQ" node="1KJxfjnoFBD" resolve="Unit" />
   </node>
   <node concept="1TIwiD" id="1KJxfjnp4km">
     <property role="EcuMT" value="2030988144087942422" />
@@ -121,10 +121,10 @@
   </node>
   <node concept="1TIwiD" id="1KJxfjnp4kp">
     <property role="EcuMT" value="2030988144087942425" />
-    <property role="TrG5h" value="AddInstruction" />
+    <property role="TrG5h" value="Add" />
     <property role="34LRSv" value="Add" />
     <property role="3GE5qa" value="instructions" />
-    <ref role="1TJDcQ" node="1BiZp4pXr6m" resolve="IngredientInstruction" />
+    <ref role="1TJDcQ" node="1BiZp4pXr6m" resolve="InstructionWithIngredients" />
   </node>
   <node concept="1TIwiD" id="1KJxfjnp4Fs">
     <property role="EcuMT" value="2030988144087943900" />
@@ -155,23 +155,23 @@
   <node concept="1TIwiD" id="1BiZp4pWX1u">
     <property role="EcuMT" value="1860828395704930398" />
     <property role="3GE5qa" value="units" />
-    <property role="TrG5h" value="UnitPack" />
+    <property role="TrG5h" value="Pack" />
     <property role="34LRSv" value="pack" />
-    <ref role="1TJDcQ" node="1KJxfjnoFBD" resolve="AbstractUnit" />
+    <ref role="1TJDcQ" node="1KJxfjnoFBD" resolve="Unit" />
   </node>
   <node concept="1TIwiD" id="1BiZp4pXpXQ">
     <property role="EcuMT" value="1860828395705048950" />
     <property role="3GE5qa" value="units" />
-    <property role="TrG5h" value="UnitTeaspoon" />
+    <property role="TrG5h" value="Teaspoon" />
     <property role="34LRSv" value="tsp" />
-    <ref role="1TJDcQ" node="1KJxfjnoFBD" resolve="AbstractUnit" />
+    <ref role="1TJDcQ" node="1KJxfjnoFBD" resolve="Unit" />
   </node>
   <node concept="1TIwiD" id="1BiZp4pXpXR">
     <property role="EcuMT" value="1860828395705048951" />
     <property role="3GE5qa" value="units" />
-    <property role="TrG5h" value="UnitTablespoon" />
+    <property role="TrG5h" value="Tablespoon" />
     <property role="34LRSv" value="tbsp" />
-    <ref role="1TJDcQ" node="1KJxfjnoFBD" resolve="AbstractUnit" />
+    <ref role="1TJDcQ" node="1KJxfjnoFBD" resolve="Unit" />
   </node>
   <node concept="Az7Fb" id="1BiZp4pXqI4">
     <property role="TrG5h" value="real" />
@@ -180,14 +180,14 @@
   <node concept="1TIwiD" id="1BiZp4pXr6l">
     <property role="EcuMT" value="1860828395705053589" />
     <property role="3GE5qa" value="instructions" />
-    <property role="TrG5h" value="CombineInstruction" />
+    <property role="TrG5h" value="Combine" />
     <property role="34LRSv" value="Combine" />
-    <ref role="1TJDcQ" node="1BiZp4pXr6m" resolve="IngredientInstruction" />
+    <ref role="1TJDcQ" node="1BiZp4pXr6m" resolve="InstructionWithIngredients" />
   </node>
   <node concept="1TIwiD" id="1BiZp4pXr6m">
     <property role="EcuMT" value="1860828395705053590" />
     <property role="3GE5qa" value="instructions" />
-    <property role="TrG5h" value="IngredientInstruction" />
+    <property role="TrG5h" value="InstructionWithIngredients" />
     <property role="R5$K7" value="true" />
     <property role="R5$K2" value="false" />
     <ref role="1TJDcQ" node="1KJxfjnp4km" resolve="Instruction" />
@@ -202,14 +202,14 @@
   <node concept="1TIwiD" id="1BiZp4pXyUo">
     <property role="EcuMT" value="1860828395705085592" />
     <property role="3GE5qa" value="instructions" />
-    <property role="TrG5h" value="ShapeInstruction" />
+    <property role="TrG5h" value="Shape" />
     <property role="34LRSv" value="Shape" />
-    <ref role="1TJDcQ" node="1BiZp4pXr6m" resolve="IngredientInstruction" />
+    <ref role="1TJDcQ" node="1BiZp4pXr6m" resolve="InstructionWithIngredients" />
   </node>
   <node concept="1TIwiD" id="2hu8A3xnKzY">
     <property role="EcuMT" value="2620569832669513982" />
     <property role="3GE5qa" value="instructions" />
-    <property role="TrG5h" value="CreatesInstruction" />
+    <property role="TrG5h" value="Creates" />
     <property role="34LRSv" value="Creates" />
     <ref role="1TJDcQ" node="1KJxfjnp4km" resolve="Instruction" />
     <node concept="1TJgyj" id="2hu8A3xo9mk" role="1TKVEi">

@@ -8,26 +8,26 @@
   <imports />
   <registry>
     <language id="feb4e5e0-84b4-4e2b-9f1d-56305190da21" name="whip">
-      <concept id="1860828395704930398" name="whip.structure.UnitPack" flags="ng" index="08iRf" />
-      <concept id="1860828395705053589" name="whip.structure.CombineInstruction" flags="ng" index="09OK4" />
-      <concept id="1860828395705053590" name="whip.structure.IngredientInstruction" flags="ng" index="09OK7">
+      <concept id="1860828395704930398" name="whip.structure.Pack" flags="ng" index="08iRf" />
+      <concept id="1860828395705053589" name="whip.structure.Combine" flags="ng" index="09OK4" />
+      <concept id="1860828395705053590" name="whip.structure.InstructionWithIngredients" flags="ng" index="09OK7">
         <child id="1860828395705053591" name="ingredients" index="09OK6" />
       </concept>
-      <concept id="1860828395705048951" name="whip.structure.UnitTablespoon" flags="ng" index="09QbA" />
-      <concept id="1860828395705048950" name="whip.structure.UnitTeaspoon" flags="ng" index="09QbB" />
-      <concept id="2620569832669513982" name="whip.structure.CreatesInstruction" flags="ng" index="350iEu">
+      <concept id="1860828395705048951" name="whip.structure.Tablespoon" flags="ng" index="09QbA" />
+      <concept id="1860828395705048950" name="whip.structure.Teaspoon" flags="ng" index="09QbB" />
+      <concept id="2620569832669513982" name="whip.structure.Creates" flags="ng" index="350iEu">
         <child id="2620569832669615508" name="ingredient" index="35fFvO" />
       </concept>
       <concept id="2620569832669615505" name="whip.structure.CreatedIngredient" flags="ng" index="35fFvL" />
       <concept id="2030988144087999109" name="whip.structure.InstructionLine" flags="ng" index="3biEpL">
         <child id="2030988144087999110" name="instructions" index="3biEpM" />
       </concept>
-      <concept id="2030988144087942425" name="whip.structure.AddInstruction" flags="ng" index="3biW7H" />
+      <concept id="2030988144087942425" name="whip.structure.Add" flags="ng" index="3biW7H" />
       <concept id="2030988144087943900" name="whip.structure.IngredientReference" flags="ng" index="3biWSC">
         <reference id="2030988144087943901" name="ingredient" index="3biWSD" />
       </concept>
-      <concept id="2030988144087909107" name="whip.structure.UnitMilliLiter" flags="ng" index="3bj4o7" />
-      <concept id="2030988144087842050" name="whip.structure.UnitGrams" flags="ng" index="3bjjBQ" />
+      <concept id="2030988144087909107" name="whip.structure.Milliliter" flags="ng" index="3bj4o7" />
+      <concept id="2030988144087842050" name="whip.structure.Grams" flags="ng" index="3bjjBQ" />
       <concept id="2030988144087841248" name="whip.structure.DeclaredIngredient" flags="ng" index="3bjjOk">
         <property id="2030988144088347014" name="amount" index="3bhvlM" />
         <child id="2030988144087841255" name="unit" index="3bjjOj" />

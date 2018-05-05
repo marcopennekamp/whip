@@ -57,7 +57,7 @@
   </registry>
   <node concept="13h7C7" id="1BiZp4pXr6Y">
     <property role="3GE5qa" value="instructions" />
-    <ref role="13h7C2" to="zp1w:1BiZp4pXr6m" resolve="IngredientInstruction" />
+    <ref role="13h7C2" to="zp1w:1BiZp4pXr6m" resolve="InstructionWithIngredients" />
     <node concept="13hLZK" id="1BiZp4pXr6Z" role="13h7CW">
       <node concept="3clFbS" id="1BiZp4pXr70" role="2VODD2" />
     </node>
@@ -72,7 +72,7 @@
   </node>
   <node concept="13h7C7" id="1BiZp4pXxJ$">
     <property role="3GE5qa" value="instructions" />
-    <ref role="13h7C2" to="zp1w:1BiZp4pXr6l" resolve="CombineInstruction" />
+    <ref role="13h7C2" to="zp1w:1BiZp4pXr6l" resolve="Combine" />
     <node concept="13hLZK" id="1BiZp4pXxJ_" role="13h7CW">
       <node concept="3clFbS" id="1BiZp4pXxJA" role="2VODD2" />
     </node>
@@ -93,7 +93,7 @@
   </node>
   <node concept="13h7C7" id="1BiZp4pXyck">
     <property role="3GE5qa" value="instructions" />
-    <ref role="13h7C2" to="zp1w:1KJxfjnp4kp" resolve="AddInstruction" />
+    <ref role="13h7C2" to="zp1w:1KJxfjnp4kp" resolve="Add" />
     <node concept="13hLZK" id="1BiZp4pXycl" role="13h7CW">
       <node concept="3clFbS" id="1BiZp4pXycm" role="2VODD2" />
     </node>
@@ -114,7 +114,7 @@
   </node>
   <node concept="13h7C7" id="1BiZp4pXyUp">
     <property role="3GE5qa" value="instructions" />
-    <ref role="13h7C2" to="zp1w:1BiZp4pXyUo" resolve="ShapeInstruction" />
+    <ref role="13h7C2" to="zp1w:1BiZp4pXyUo" resolve="Shape" />
     <node concept="13hLZK" id="1BiZp4pXyUq" role="13h7CW">
       <node concept="3clFbS" id="1BiZp4pXyUr" role="2VODD2" />
     </node>
