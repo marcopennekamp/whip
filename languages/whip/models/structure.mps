@@ -64,7 +64,7 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="ingredients" />
       <property role="20lbJX" value="1..n" />
-      <ref role="20lvS9" node="1KJxfjnoFBw" resolve="Ingredient" />
+      <ref role="20lvS9" node="1KJxfjnoFBw" resolve="DeclaredIngredient" />
     </node>
     <node concept="1TJgyj" id="1KJxfjnpalI" role="1TKVEi">
       <property role="IQ2ns" value="2030988144087967086" />
@@ -76,17 +76,14 @@
   </node>
   <node concept="1TIwiD" id="1KJxfjnoFBw">
     <property role="EcuMT" value="2030988144087841248" />
-    <property role="TrG5h" value="Ingredient" />
+    <property role="TrG5h" value="DeclaredIngredient" />
     <property role="3GE5qa" value="ingredients" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <ref role="1TJDcQ" node="2hu8A3xo9mg" resolve="Ingredient" />
     <node concept="1TJgyj" id="1KJxfjnoFBB" role="1TKVEi">
       <property role="IQ2ns" value="2030988144087841255" />
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="unit" />
       <ref role="20lvS9" node="1KJxfjnoFBD" resolve="AbstractUnit" />
-    </node>
-    <node concept="PrWs8" id="1KJxfjnp4ks" role="PzmwI">
-      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
     <node concept="1TJgyi" id="1KJxfjnqB66" role="1TKVEl">
       <property role="IQ2nx" value="2030988144088347014" />
@@ -139,7 +136,7 @@
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="ingredient" />
       <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="1KJxfjnoFBw" resolve="Ingredient" />
+      <ref role="20lvS9" node="2hu8A3xo9mg" resolve="Ingredient" />
     </node>
   </node>
   <node concept="1TIwiD" id="1KJxfjnpia5">
@@ -208,6 +205,37 @@
     <property role="TrG5h" value="ShapeInstruction" />
     <property role="34LRSv" value="Shape" />
     <ref role="1TJDcQ" node="1BiZp4pXr6m" resolve="IngredientInstruction" />
+  </node>
+  <node concept="1TIwiD" id="2hu8A3xnKzY">
+    <property role="EcuMT" value="2620569832669513982" />
+    <property role="3GE5qa" value="instructions" />
+    <property role="TrG5h" value="CreatesInstruction" />
+    <property role="34LRSv" value="Creates" />
+    <ref role="1TJDcQ" node="1KJxfjnp4km" resolve="Instruction" />
+    <node concept="1TJgyj" id="2hu8A3xo9mk" role="1TKVEi">
+      <property role="IQ2ns" value="2620569832669615508" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="ingredient" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="2hu8A3xo9mh" resolve="CreatedIngredient" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="2hu8A3xo9mg">
+    <property role="EcuMT" value="2620569832669615504" />
+    <property role="3GE5qa" value="ingredients" />
+    <property role="TrG5h" value="Ingredient" />
+    <property role="R5$K7" value="true" />
+    <property role="R5$K2" value="false" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="2hu8A3xo9N9" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="2hu8A3xo9mh">
+    <property role="EcuMT" value="2620569832669615505" />
+    <property role="3GE5qa" value="ingredients" />
+    <property role="TrG5h" value="CreatedIngredient" />
+    <ref role="1TJDcQ" node="2hu8A3xo9mg" resolve="Ingredient" />
   </node>
 </model>
 

@@ -189,7 +189,7 @@
   </node>
   <node concept="24kQdi" id="1KJxfjnoFBG">
     <property role="3GE5qa" value="ingredients" />
-    <ref role="1XX52x" to="zp1w:1KJxfjnoFBw" resolve="Ingredient" />
+    <ref role="1XX52x" to="zp1w:1KJxfjnoFBw" resolve="DeclaredIngredient" />
     <node concept="3EZMnI" id="1KJxfjnoFCB" role="2wV5jI">
       <node concept="3F0A7n" id="1KJxfjnp4Hg" role="3EZMnx">
         <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
@@ -310,6 +310,29 @@
         <node concept="2iRfu4" id="1BiZp4pXr6A" role="2czzBx" />
       </node>
       <node concept="l2Vlx" id="1BiZp4pXr6B" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="2hu8A3xnK$h">
+    <property role="3GE5qa" value="instructions" />
+    <ref role="1XX52x" to="zp1w:2hu8A3xnKzY" resolve="CreatesInstruction" />
+    <node concept="3EZMnI" id="2hu8A3xnK$j" role="2wV5jI">
+      <node concept="3F0ifn" id="2hu8A3xnK$p" role="3EZMnx">
+        <property role="3F0ifm" value="Creates" />
+      </node>
+      <node concept="3F1sOY" id="2hu8A3xo9mV" role="3EZMnx">
+        <ref role="1NtTu8" to="zp1w:2hu8A3xo9mk" resolve="ingredient" />
+      </node>
+      <node concept="l2Vlx" id="2hu8A3xnK$l" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="2hu8A3xo9mu">
+    <property role="3GE5qa" value="ingredients" />
+    <ref role="1XX52x" to="zp1w:2hu8A3xo9mh" resolve="CreatedIngredient" />
+    <node concept="3EZMnI" id="2hu8A3xo9mC" role="2wV5jI">
+      <node concept="3F0A7n" id="2hu8A3xo9mO" role="3EZMnx">
+        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+      </node>
+      <node concept="l2Vlx" id="2hu8A3xo9mF" role="2iSdaV" />
     </node>
   </node>
 </model>

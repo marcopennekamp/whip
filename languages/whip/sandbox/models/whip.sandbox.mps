@@ -15,6 +15,10 @@
       </concept>
       <concept id="1860828395705048951" name="whip.structure.UnitTablespoon" flags="ng" index="09QbA" />
       <concept id="1860828395705048950" name="whip.structure.UnitTeaspoon" flags="ng" index="09QbB" />
+      <concept id="2620569832669513982" name="whip.structure.CreatesInstruction" flags="ng" index="350iEu">
+        <child id="2620569832669615508" name="ingredient" index="35fFvO" />
+      </concept>
+      <concept id="2620569832669615505" name="whip.structure.CreatedIngredient" flags="ng" index="35fFvL" />
       <concept id="2030988144087999109" name="whip.structure.InstructionLine" flags="ng" index="3biEpL">
         <child id="2030988144087999110" name="instructions" index="3biEpM" />
       </concept>
@@ -24,7 +28,7 @@
       </concept>
       <concept id="2030988144087909107" name="whip.structure.UnitMilliLiter" flags="ng" index="3bj4o7" />
       <concept id="2030988144087842050" name="whip.structure.UnitGrams" flags="ng" index="3bjjBQ" />
-      <concept id="2030988144087841248" name="whip.structure.Ingredient" flags="ng" index="3bjjOk">
+      <concept id="2030988144087841248" name="whip.structure.DeclaredIngredient" flags="ng" index="3bjjOk">
         <property id="2030988144088347014" name="amount" index="3bhvlM" />
         <child id="2030988144087841255" name="unit" index="3bjjOj" />
       </concept>
@@ -59,6 +63,11 @@
         </node>
         <node concept="3biWSC" id="1BiZp4pXxyb" role="09OK6">
           <ref role="3biWSD" node="1KJxfjnoWch" resolve="water" />
+        </node>
+      </node>
+      <node concept="350iEu" id="2hu8A3xodNJ" role="3biEpM">
+        <node concept="35fFvL" id="2hu8A3xodNL" role="35fFvO">
+          <property role="TrG5h" value="dough" />
         </node>
       </node>
     </node>
