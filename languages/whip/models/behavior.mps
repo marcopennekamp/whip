@@ -69,7 +69,7 @@
     <property role="3GE5qa" value="instructions" />
     <ref role="13h7C2" to="zp1w:1BiZp4pXr6m" resolve="InstructionWithIngredients" />
     <node concept="13i0hz" id="15uq5oaEzVz" role="13h7CS">
-      <property role="TrG5h" value="allowsItIngredient" />
+      <property role="TrG5h" value="allowsSelfIngredient" />
       <property role="13i0it" value="true" />
       <node concept="3Tm1VV" id="15uq5oaEzV$" role="1B3o_S" />
       <node concept="10P_77" id="15uq5oaEzVN" role="3clF45" />
@@ -94,9 +94,9 @@
     <property role="3GE5qa" value="instructions" />
     <ref role="13h7C2" to="zp1w:1BiZp4pXyUo" resolve="Shape" />
     <node concept="13i0hz" id="15uq5oaEEFW" role="13h7CS">
-      <property role="TrG5h" value="allowsItIngredient" />
+      <property role="TrG5h" value="allowsSelfIngredient" />
       <property role="2Ki8OM" value="false" />
-      <ref role="13i0hy" node="15uq5oaEzVz" resolve="allowsItIngredient" />
+      <ref role="13i0hy" node="15uq5oaEzVz" resolve="allowsSelfIngredient" />
       <node concept="3clFbS" id="15uq5oaEEFZ" role="3clF47">
         <node concept="3clFbF" id="15uq5oaEEGx" role="3cqZAp">
           <node concept="3clFbT" id="15uq5oaEEGw" role="3clFbG">
@@ -115,9 +115,9 @@
     <property role="3GE5qa" value="instructions" />
     <ref role="13h7C2" to="zp1w:2hu8A3xrslk" resolve="Stir" />
     <node concept="13i0hz" id="15uq5oaEEGX" role="13h7CS">
-      <property role="TrG5h" value="allowsItIngredient" />
+      <property role="TrG5h" value="allowsSelfIngredient" />
       <property role="2Ki8OM" value="false" />
-      <ref role="13i0hy" node="15uq5oaEzVz" resolve="allowsItIngredient" />
+      <ref role="13i0hy" node="15uq5oaEzVz" resolve="allowsSelfIngredient" />
       <node concept="3clFbS" id="15uq5oaEEH0" role="3clF47">
         <node concept="3clFbF" id="15uq5oaEEHq" role="3cqZAp">
           <node concept="3clFbT" id="15uq5oaEEHp" role="3clFbG">
@@ -136,9 +136,9 @@
     <property role="3GE5qa" value="instructions" />
     <ref role="13h7C2" to="zp1w:15uq5oaEMgN" resolve="Moisten" />
     <node concept="13i0hz" id="15uq5oaEMgZ" role="13h7CS">
-      <property role="TrG5h" value="allowsItIngredient" />
+      <property role="TrG5h" value="allowsSelfIngredient" />
       <property role="2Ki8OM" value="false" />
-      <ref role="13i0hy" node="15uq5oaEzVz" resolve="allowsItIngredient" />
+      <ref role="13i0hy" node="15uq5oaEzVz" resolve="allowsSelfIngredient" />
       <node concept="3clFbS" id="15uq5oaEMh2" role="3clF47">
         <node concept="3clFbF" id="15uq5oaEMh$" role="3cqZAp">
           <node concept="3clFbT" id="15uq5oaEMhz" role="3clFbG">

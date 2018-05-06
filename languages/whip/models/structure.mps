@@ -291,10 +291,7 @@
     <property role="3GE5qa" value="ingredients" />
     <property role="TrG5h" value="ItIngredient" />
     <property role="34LRSv" value="it" />
-    <ref role="1TJDcQ" node="6eaZjsca8hJ" resolve="IngredientValue" />
-    <node concept="t5JxF" id="2hu8A3xry1U" role="lGtFl">
-      <property role="t5JxN" value="A pseudo ingredient that refers to the current context mixture." />
-    </node>
+    <ref role="1TJDcQ" node="15uq5oaF8fX" resolve="SelfIngredient" />
   </node>
   <node concept="1TIwiD" id="6eaZjsc9R0s">
     <property role="EcuMT" value="7172823769409875996" />
@@ -316,6 +313,24 @@
     <property role="TrG5h" value="Moisten" />
     <property role="34LRSv" value="Moisten" />
     <ref role="1TJDcQ" node="1BiZp4pXr6m" resolve="InstructionWithIngredients" />
+  </node>
+  <node concept="1TIwiD" id="15uq5oaF8fX">
+    <property role="EcuMT" value="1251552465211130877" />
+    <property role="3GE5qa" value="ingredients" />
+    <property role="TrG5h" value="SelfIngredient" />
+    <property role="R5$K7" value="true" />
+    <property role="R5$K2" value="false" />
+    <ref role="1TJDcQ" node="6eaZjsca8hJ" resolve="IngredientValue" />
+    <node concept="t5JxF" id="15uq5oaF8fY" role="lGtFl">
+      <property role="t5JxN" value="A pseudo ingredient that refers to the current context mixture." />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="15uq5oaF8g0">
+    <property role="EcuMT" value="1251552465211130880" />
+    <property role="3GE5qa" value="ingredients" />
+    <property role="TrG5h" value="ThemIngredient" />
+    <property role="34LRSv" value="them" />
+    <ref role="1TJDcQ" node="15uq5oaF8fX" resolve="SelfIngredient" />
   </node>
 </model>
 

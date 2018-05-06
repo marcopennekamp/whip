@@ -174,8 +174,8 @@
           <node concept="2OqwBi" id="15uq5oaEeI9" role="3clFbw">
             <node concept="2H4GUG" id="15uq5oaEecw" role="2Oq$k0" />
             <node concept="1mIQ4w" id="15uq5oaEeZP" role="2OqNvi">
-              <node concept="chp4Y" id="15uq5oaEf8T" role="cj9EA">
-                <ref role="cht4Q" to="zp1w:2hu8A3xry1T" resolve="ItIngredient" />
+              <node concept="chp4Y" id="15uq5oaF8N5" role="cj9EA">
+                <ref role="cht4Q" to="zp1w:15uq5oaF8fX" resolve="SelfIngredient" />
               </node>
             </node>
           </node>
@@ -185,7 +185,7 @@
                 <node concept="2OqwBi" id="15uq5oaEDjL" role="3uHU7w">
                   <node concept="EsrRn" id="15uq5oaED5K" role="2Oq$k0" />
                   <node concept="2qgKlT" id="15uq5oaEDZO" role="2OqNvi">
-                    <ref role="37wK5l" to="q9rp:15uq5oaEzVz" resolve="allowsItIngredient" />
+                    <ref role="37wK5l" to="q9rp:15uq5oaEzVz" resolve="allowsSelfIngredient" />
                   </node>
                 </node>
                 <node concept="3clFbC" id="15uq5oaEtYe" role="3uHU7B">

@@ -401,5 +401,15 @@
       <node concept="l2Vlx" id="6eaZjsc9R0M" role="2iSdaV" />
     </node>
   </node>
+  <node concept="24kQdi" id="15uq5oaF8g9">
+    <property role="3GE5qa" value="ingredients" />
+    <ref role="1XX52x" to="zp1w:15uq5oaF8g0" resolve="ThemIngredient" />
+    <node concept="3EZMnI" id="15uq5oaF8gg" role="2wV5jI">
+      <node concept="3F0ifn" id="15uq5oaF8gn" role="3EZMnx">
+        <property role="3F0ifm" value="them" />
+      </node>
+      <node concept="l2Vlx" id="15uq5oaF8gj" role="2iSdaV" />
+    </node>
+  </node>
 </model>
 
