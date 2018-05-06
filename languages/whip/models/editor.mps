@@ -84,7 +84,9 @@
       <concept id="1219418625346" name="jetbrains.mps.lang.editor.structure.IStyleContainer" flags="ng" index="3F0Thp">
         <child id="1219418656006" name="styleItem" index="3F10Kt" />
       </concept>
-      <concept id="1073389882823" name="jetbrains.mps.lang.editor.structure.CellModel_RefNode" flags="sg" stub="730538219795960754" index="3F1sOY" />
+      <concept id="1073389882823" name="jetbrains.mps.lang.editor.structure.CellModel_RefNode" flags="sg" stub="730538219795960754" index="3F1sOY">
+        <child id="16410578721629643" name="emptyCellModel" index="2ruayu" />
+      </concept>
       <concept id="1073390211982" name="jetbrains.mps.lang.editor.structure.CellModel_RefNodeList" flags="sg" stub="2794558372793454595" index="3F2HdR" />
       <concept id="1166049232041" name="jetbrains.mps.lang.editor.structure.AbstractComponent" flags="ng" index="1XWOmA">
         <reference id="1166049300910" name="conceptDeclaration" index="1XX52x" />
@@ -273,7 +275,7 @@
   </node>
   <node concept="24kQdi" id="1BiZp4pWX1J">
     <property role="3GE5qa" value="units" />
-    <ref role="1XX52x" to="zp1w:1KJxfjnoFBD" resolve="Unit" />
+    <ref role="1XX52x" to="zp1w:1KJxfjnoFBD" resolve="IngredientUnit" />
     <node concept="3EZMnI" id="1BiZp4pWX1L" role="2wV5jI">
       <node concept="PMmxH" id="1BiZp4pWX1S" role="3EZMnx">
         <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
@@ -409,6 +411,56 @@
         <property role="3F0ifm" value="them" />
       </node>
       <node concept="l2Vlx" id="15uq5oaF8gj" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="15uq5oaFimN">
+    <property role="3GE5qa" value="instructions" />
+    <ref role="1XX52x" to="zp1w:15uq5oaFhf$" resolve="Bake" />
+    <node concept="3EZMnI" id="15uq5oaFinh" role="2wV5jI">
+      <node concept="PMmxH" id="15uq5oaFino" role="3EZMnx">
+        <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+      </node>
+      <node concept="3F1sOY" id="15uq5oaFinx" role="3EZMnx">
+        <ref role="1NtTu8" to="zp1w:15uq5oaFimP" resolve="ingredient" />
+      </node>
+      <node concept="3F0ifn" id="15uq5oaFinD" role="3EZMnx">
+        <property role="3F0ifm" value="at" />
+      </node>
+      <node concept="l2Vlx" id="15uq5oaFink" role="2iSdaV" />
+      <node concept="3F0A7n" id="15uq5oaFinN" role="3EZMnx">
+        <ref role="1NtTu8" to="zp1w:15uq5oaFimY" resolve="temperature" />
+      </node>
+      <node concept="3F1sOY" id="15uq5oaFinZ" role="3EZMnx">
+        <ref role="1NtTu8" to="zp1w:15uq5oaFin7" resolve="temperatureUnit" />
+        <node concept="3F0ifn" id="15uq5oaFD4z" role="2ruayu">
+          <property role="3F0ifm" value="no temperature unit" />
+        </node>
+      </node>
+      <node concept="3F0ifn" id="15uq5oaFiod" role="3EZMnx">
+        <property role="3F0ifm" value="for" />
+      </node>
+      <node concept="3F0A7n" id="15uq5oaFioA" role="3EZMnx">
+        <ref role="1NtTu8" to="zp1w:15uq5oaFina" resolve="minBakeTime" />
+      </node>
+      <node concept="3F0ifn" id="15uq5oaFioS" role="3EZMnx">
+        <property role="3F0ifm" value="to" />
+      </node>
+      <node concept="3F0A7n" id="15uq5oaFipn" role="3EZMnx">
+        <ref role="1NtTu8" to="zp1w:15uq5oaFind" resolve="maxBakeTime" />
+      </node>
+      <node concept="3F0ifn" id="15uq5oaFipH" role="3EZMnx">
+        <property role="3F0ifm" value="minutes" />
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="15uq5oaFoym">
+    <property role="3GE5qa" value="units" />
+    <ref role="1XX52x" to="zp1w:15uq5oaFin0" resolve="TemperatureUnit" />
+    <node concept="3EZMnI" id="15uq5oaFoyo" role="2wV5jI">
+      <node concept="PMmxH" id="15uq5oaFoyv" role="3EZMnx">
+        <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+      </node>
+      <node concept="l2Vlx" id="15uq5oaFoyr" role="2iSdaV" />
     </node>
   </node>
 </model>

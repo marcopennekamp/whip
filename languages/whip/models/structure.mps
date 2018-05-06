@@ -87,7 +87,7 @@
       <property role="IQ2ns" value="2030988144087841255" />
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="unit" />
-      <ref role="20lvS9" node="1KJxfjnoFBD" resolve="Unit" />
+      <ref role="20lvS9" node="1KJxfjnoFBD" resolve="IngredientUnit" />
     </node>
     <node concept="1TJgyi" id="1KJxfjnqB66" role="1TKVEl">
       <property role="IQ2nx" value="2030988144088347014" />
@@ -97,7 +97,7 @@
   </node>
   <node concept="1TIwiD" id="1KJxfjnoFBD">
     <property role="EcuMT" value="2030988144087841257" />
-    <property role="TrG5h" value="Unit" />
+    <property role="TrG5h" value="IngredientUnit" />
     <property role="R5$K7" value="true" />
     <property role="3GE5qa" value="units" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
@@ -107,14 +107,14 @@
     <property role="TrG5h" value="Grams" />
     <property role="34LRSv" value="g" />
     <property role="3GE5qa" value="units" />
-    <ref role="1TJDcQ" node="1KJxfjnoFBD" resolve="Unit" />
+    <ref role="1TJDcQ" node="1KJxfjnoFBD" resolve="IngredientUnit" />
   </node>
   <node concept="1TIwiD" id="1KJxfjnoWbN">
     <property role="EcuMT" value="2030988144087909107" />
     <property role="TrG5h" value="Milliliter" />
     <property role="34LRSv" value="ml" />
     <property role="3GE5qa" value="units" />
-    <ref role="1TJDcQ" node="1KJxfjnoFBD" resolve="Unit" />
+    <ref role="1TJDcQ" node="1KJxfjnoFBD" resolve="IngredientUnit" />
   </node>
   <node concept="1TIwiD" id="1KJxfjnp4km">
     <property role="EcuMT" value="2030988144087942422" />
@@ -161,21 +161,21 @@
     <property role="3GE5qa" value="units" />
     <property role="TrG5h" value="Pack" />
     <property role="34LRSv" value="pack" />
-    <ref role="1TJDcQ" node="1KJxfjnoFBD" resolve="Unit" />
+    <ref role="1TJDcQ" node="1KJxfjnoFBD" resolve="IngredientUnit" />
   </node>
   <node concept="1TIwiD" id="1BiZp4pXpXQ">
     <property role="EcuMT" value="1860828395705048950" />
     <property role="3GE5qa" value="units" />
     <property role="TrG5h" value="Teaspoon" />
     <property role="34LRSv" value="tsp" />
-    <ref role="1TJDcQ" node="1KJxfjnoFBD" resolve="Unit" />
+    <ref role="1TJDcQ" node="1KJxfjnoFBD" resolve="IngredientUnit" />
   </node>
   <node concept="1TIwiD" id="1BiZp4pXpXR">
     <property role="EcuMT" value="1860828395705048951" />
     <property role="3GE5qa" value="units" />
     <property role="TrG5h" value="Tablespoon" />
     <property role="34LRSv" value="tbsp" />
-    <ref role="1TJDcQ" node="1KJxfjnoFBD" resolve="Unit" />
+    <ref role="1TJDcQ" node="1KJxfjnoFBD" resolve="IngredientUnit" />
   </node>
   <node concept="Az7Fb" id="1BiZp4pXqI4">
     <property role="TrG5h" value="real" />
@@ -331,6 +331,64 @@
     <property role="TrG5h" value="ThemIngredient" />
     <property role="34LRSv" value="them" />
     <ref role="1TJDcQ" node="15uq5oaF8fX" resolve="SelfIngredient" />
+  </node>
+  <node concept="1TIwiD" id="15uq5oaFhf$">
+    <property role="EcuMT" value="1251552465211167716" />
+    <property role="3GE5qa" value="instructions" />
+    <property role="TrG5h" value="Bake" />
+    <property role="34LRSv" value="Bake" />
+    <ref role="1TJDcQ" node="1KJxfjnp4km" resolve="Instruction" />
+    <node concept="1TJgyj" id="15uq5oaFimP" role="1TKVEi">
+      <property role="IQ2ns" value="1251552465211172277" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="ingredient" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="6eaZjsca8hJ" resolve="IngredientValue" />
+    </node>
+    <node concept="1TJgyj" id="15uq5oaFin7" role="1TKVEi">
+      <property role="IQ2ns" value="1251552465211172295" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="temperatureUnit" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="15uq5oaFin0" resolve="TemperatureUnit" />
+    </node>
+    <node concept="1TJgyi" id="15uq5oaFimY" role="1TKVEl">
+      <property role="IQ2nx" value="1251552465211172286" />
+      <property role="TrG5h" value="temperature" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+    <node concept="1TJgyi" id="15uq5oaFina" role="1TKVEl">
+      <property role="IQ2nx" value="1251552465211172298" />
+      <property role="TrG5h" value="minBakeTime" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+    <node concept="1TJgyi" id="15uq5oaFind" role="1TKVEl">
+      <property role="IQ2nx" value="1251552465211172301" />
+      <property role="TrG5h" value="maxBakeTime" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="15uq5oaFin0">
+    <property role="EcuMT" value="1251552465211172288" />
+    <property role="3GE5qa" value="units" />
+    <property role="TrG5h" value="TemperatureUnit" />
+    <property role="R5$K7" value="true" />
+    <property role="R5$K2" value="false" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+  </node>
+  <node concept="1TIwiD" id="15uq5oaFin1">
+    <property role="EcuMT" value="1251552465211172289" />
+    <property role="3GE5qa" value="units" />
+    <property role="TrG5h" value="Celcius" />
+    <property role="34LRSv" value="C" />
+    <ref role="1TJDcQ" node="15uq5oaFin0" resolve="TemperatureUnit" />
+  </node>
+  <node concept="1TIwiD" id="15uq5oaFin2">
+    <property role="EcuMT" value="1251552465211172290" />
+    <property role="3GE5qa" value="units" />
+    <property role="TrG5h" value="Fahrenheit" />
+    <property role="34LRSv" value="F" />
+    <ref role="1TJDcQ" node="15uq5oaFin0" resolve="TemperatureUnit" />
   </node>
 </model>
 

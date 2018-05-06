@@ -17,6 +17,14 @@
       </concept>
       <concept id="1860828395705048951" name="whip.structure.Tablespoon" flags="ng" index="09QbA" />
       <concept id="1860828395705048950" name="whip.structure.Teaspoon" flags="ng" index="09QbB" />
+      <concept id="1251552465211172289" name="whip.structure.Celcius" flags="ng" index="rWOQn" />
+      <concept id="1251552465211167716" name="whip.structure.Bake" flags="ng" index="rWRIM">
+        <property id="1251552465211172301" name="maxBakeTime" index="rWOQr" />
+        <property id="1251552465211172298" name="minBakeTime" index="rWOQs" />
+        <property id="1251552465211172286" name="temperature" index="rWORC" />
+        <child id="1251552465211172295" name="temperatureUnit" index="rWOQh" />
+        <child id="1251552465211172277" name="ingredient" index="rWORz" />
+      </concept>
       <concept id="1251552465211040819" name="whip.structure.Moisten" flags="ng" index="rXkL_" />
       <concept id="2620569832669513982" name="whip.structure.Creates" flags="ng" index="350iEu">
         <child id="2620569832669615508" name="ingredient" index="35fFvO" />
@@ -99,6 +107,17 @@
         <node concept="1JFoOF" id="15uq5oaENpo" role="35fFvO">
           <property role="TrG5h" value="bread" />
         </node>
+      </node>
+    </node>
+    <node concept="3biEpL" id="15uq5oaGbkX" role="3biM6q">
+      <node concept="rWRIM" id="15uq5oaGblm" role="3biEpM">
+        <property role="rWORC" value="200" />
+        <property role="rWOQs" value="20" />
+        <property role="rWOQr" value="40" />
+        <node concept="3biWSC" id="15uq5oaGblv" role="rWORz">
+          <ref role="3biWSD" node="15uq5oaENpo" resolve="bread" />
+        </node>
+        <node concept="rWOQn" id="15uq5oaGbly" role="rWOQh" />
       </node>
     </node>
     <node concept="3bjjOk" id="1KJxfjnoRmo" role="3bjjdh">

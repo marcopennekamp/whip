@@ -153,5 +153,26 @@
       <node concept="3clFbS" id="15uq5oaEMgQ" role="2VODD2" />
     </node>
   </node>
+  <node concept="13h7C7" id="15uq5oaFhfC">
+    <property role="3GE5qa" value="instructions" />
+    <ref role="13h7C2" to="zp1w:15uq5oaFhf$" resolve="Bake" />
+    <node concept="13i0hz" id="15uq5oaFhfN" role="13h7CS">
+      <property role="TrG5h" value="allowsSelfIngredient" />
+      <property role="2Ki8OM" value="false" />
+      <ref role="13i0hy" node="15uq5oaEzVz" resolve="allowsSelfIngredient" />
+      <node concept="3clFbS" id="15uq5oaFhfQ" role="3clF47">
+        <node concept="3clFbF" id="15uq5oaFhgo" role="3cqZAp">
+          <node concept="3clFbT" id="15uq5oaFhgn" role="3clFbG">
+            <property role="3clFbU" value="true" />
+          </node>
+        </node>
+      </node>
+      <node concept="10P_77" id="15uq5oaFhgb" role="3clF45" />
+      <node concept="3Tm1VV" id="15uq5oaFhgc" role="1B3o_S" />
+    </node>
+    <node concept="13hLZK" id="15uq5oaFhfD" role="13h7CW">
+      <node concept="3clFbS" id="15uq5oaFhfE" role="2VODD2" />
+    </node>
+  </node>
 </model>
 
