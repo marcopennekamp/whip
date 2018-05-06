@@ -372,9 +372,12 @@
         <property role="3F0ifm" value="until" />
       </node>
       <node concept="3F2HdR" id="2hu8A3xowBk" role="3EZMnx">
-        <property role="2czwfO" value="and" />
+        <property role="2czwfO" value="&amp;" />
         <ref role="1NtTu8" to="zp1w:2hu8A3xowBi" resolve="states" />
         <node concept="2iRfu4" id="2hu8A3xowBt" role="2czzBx" />
+        <node concept="tppnM" id="15uq5oaF3RW" role="sWeuL">
+          <node concept="11L4FC" id="15uq5oaF3RY" role="3F10Kt" />
+        </node>
       </node>
     </node>
   </node>

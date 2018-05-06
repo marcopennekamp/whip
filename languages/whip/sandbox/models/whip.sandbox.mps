@@ -9,6 +9,7 @@
   <registry>
     <language id="feb4e5e0-84b4-4e2b-9f1d-56305190da21" name="whip">
       <concept id="1860828395704930398" name="whip.structure.Pack" flags="ng" index="08iRf" />
+      <concept id="1860828395705085592" name="whip.structure.Shape" flags="ng" index="09dc9" />
       <concept id="1860828395705053589" name="whip.structure.Combine" flags="ng" index="09OK4" />
       <concept id="1860828395705053590" name="whip.structure.InstructionWithIngredients" flags="ng" index="09OK7">
         <child id="1860828395705053591" name="ingredients" index="09OK6" />
@@ -16,6 +17,7 @@
       </concept>
       <concept id="1860828395705048951" name="whip.structure.Tablespoon" flags="ng" index="09QbA" />
       <concept id="1860828395705048950" name="whip.structure.Teaspoon" flags="ng" index="09QbB" />
+      <concept id="1251552465211040819" name="whip.structure.Moisten" flags="ng" index="rXkL_" />
       <concept id="2620569832669513982" name="whip.structure.Creates" flags="ng" index="350iEu">
         <child id="2620569832669615508" name="ingredient" index="35fFvO" />
       </concept>
@@ -81,6 +83,21 @@
       <node concept="350iEu" id="6eaZjsca8hp" role="3biEpM">
         <node concept="1JFoOF" id="6eaZjsca8hr" role="35fFvO">
           <property role="TrG5h" value="dough" />
+        </node>
+      </node>
+    </node>
+    <node concept="3biEpL" id="15uq5oaEMgm" role="3biM6q">
+      <node concept="09dc9" id="15uq5oaEMgC" role="3biEpM">
+        <node concept="3biWSC" id="15uq5oaEMgF" role="09OK6">
+          <ref role="3biWSD" node="6eaZjsca8hr" resolve="dough" />
+        </node>
+      </node>
+      <node concept="rXkL_" id="15uq5oaENov" role="3biEpM">
+        <node concept="35c08p" id="15uq5oaF8c$" role="09OK6" />
+      </node>
+      <node concept="350iEu" id="15uq5oaENpm" role="3biEpM">
+        <node concept="1JFoOF" id="15uq5oaENpo" role="35fFvO">
+          <property role="TrG5h" value="bread" />
         </node>
       </node>
     </node>

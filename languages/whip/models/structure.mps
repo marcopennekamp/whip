@@ -310,5 +310,12 @@
     <property role="R5$K2" value="false" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
   </node>
+  <node concept="1TIwiD" id="15uq5oaEMgN">
+    <property role="EcuMT" value="1251552465211040819" />
+    <property role="3GE5qa" value="instructions" />
+    <property role="TrG5h" value="Moisten" />
+    <property role="34LRSv" value="Moisten" />
+    <ref role="1TJDcQ" node="1BiZp4pXr6m" resolve="InstructionWithIngredients" />
+  </node>
 </model>
 
