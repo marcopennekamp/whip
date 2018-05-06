@@ -198,6 +198,13 @@
       <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="1KJxfjnp4Fs" resolve="IngredientReference" />
     </node>
+    <node concept="1TJgyj" id="2hu8A3xowBw" role="1TKVEi">
+      <property role="IQ2ns" value="2620569832669710816" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="affixes" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="2hu8A3xowAr" resolve="Affix" />
+    </node>
   </node>
   <node concept="1TIwiD" id="1BiZp4pXyUo">
     <property role="EcuMT" value="1860828395705085592" />
@@ -236,6 +243,43 @@
     <property role="3GE5qa" value="ingredients" />
     <property role="TrG5h" value="CreatedIngredient" />
     <ref role="1TJDcQ" node="2hu8A3xo9mg" resolve="Ingredient" />
+  </node>
+  <node concept="1TIwiD" id="2hu8A3xowAr">
+    <property role="EcuMT" value="2620569832669710747" />
+    <property role="TrG5h" value="Affix" />
+    <property role="3GE5qa" value="affixes" />
+    <property role="R5$K7" value="true" />
+    <property role="R5$K2" value="false" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+  </node>
+  <node concept="1TIwiD" id="2hu8A3xowAs">
+    <property role="EcuMT" value="2620569832669710748" />
+    <property role="3GE5qa" value="affixes.state" />
+    <property role="TrG5h" value="IngredientState" />
+    <property role="R5$K7" value="true" />
+    <property role="R5$K2" value="false" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+  </node>
+  <node concept="1TIwiD" id="2hu8A3xowAP">
+    <property role="EcuMT" value="2620569832669710773" />
+    <property role="3GE5qa" value="affixes.state" />
+    <property role="TrG5h" value="Combined" />
+    <property role="34LRSv" value="combined" />
+    <ref role="1TJDcQ" node="2hu8A3xowAs" resolve="IngredientState" />
+  </node>
+  <node concept="1TIwiD" id="2hu8A3xowAQ">
+    <property role="EcuMT" value="2620569832669710774" />
+    <property role="3GE5qa" value="affixes" />
+    <property role="TrG5h" value="Until" />
+    <property role="34LRSv" value="until" />
+    <ref role="1TJDcQ" node="2hu8A3xowAr" resolve="Affix" />
+    <node concept="1TJgyj" id="2hu8A3xowBi" role="1TKVEi">
+      <property role="IQ2ns" value="2620569832669710802" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="states" />
+      <property role="20lbJX" value="1..n" />
+      <ref role="20lvS9" node="2hu8A3xowAs" resolve="IngredientState" />
+    </node>
   </node>
 </model>
 
