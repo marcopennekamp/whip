@@ -12,13 +12,19 @@
       <concept id="1860828395705053589" name="whip.structure.Combine" flags="ng" index="09OK4" />
       <concept id="1860828395705053590" name="whip.structure.InstructionWithIngredients" flags="ng" index="09OK7">
         <child id="1860828395705053591" name="ingredients" index="09OK6" />
+        <child id="2620569832669710816" name="affixes" index="35f2I0" />
       </concept>
       <concept id="1860828395705048951" name="whip.structure.Tablespoon" flags="ng" index="09QbA" />
       <concept id="1860828395705048950" name="whip.structure.Teaspoon" flags="ng" index="09QbB" />
       <concept id="2620569832669513982" name="whip.structure.Creates" flags="ng" index="350iEu">
         <child id="2620569832669615508" name="ingredient" index="35fFvO" />
       </concept>
-      <concept id="2620569832669615505" name="whip.structure.CreatedIngredient" flags="ng" index="35fFvL" />
+      <concept id="2620569832670503033" name="whip.structure.ItIngredient" flags="ng" index="35c08p" />
+      <concept id="2620569832670479700" name="whip.structure.Stir" flags="ng" index="35cYsO" />
+      <concept id="2620569832669710773" name="whip.structure.Combined" flags="ng" index="35f2Jl" />
+      <concept id="2620569832669710774" name="whip.structure.Until" flags="ng" index="35f2Jm">
+        <child id="2620569832669710802" name="states" index="35f2IM" />
+      </concept>
       <concept id="2030988144087999109" name="whip.structure.InstructionLine" flags="ng" index="3biEpL">
         <child id="2030988144087999110" name="instructions" index="3biEpM" />
       </concept>
@@ -36,6 +42,7 @@
         <child id="2030988144087967086" name="instructionLines" index="3biM6q" />
         <child id="2030988144087840677" name="ingredients" index="3bjjdh" />
       </concept>
+      <concept id="7172823769409875996" name="whip.structure.CreatedIngredient" flags="ng" index="1JFoOF" />
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
@@ -65,8 +72,14 @@
           <ref role="3biWSD" node="1KJxfjnoWch" resolve="water" />
         </node>
       </node>
-      <node concept="350iEu" id="2hu8A3xow_F" role="3biEpM">
-        <node concept="35fFvL" id="2hu8A3xow_H" role="35fFvO">
+      <node concept="35cYsO" id="15uq5oaEEHW" role="3biEpM">
+        <node concept="35c08p" id="15uq5oaEEI8" role="09OK6" />
+        <node concept="35f2Jm" id="15uq5oaEEIg" role="35f2I0">
+          <node concept="35f2Jl" id="15uq5oaEEIm" role="35f2IM" />
+        </node>
+      </node>
+      <node concept="350iEu" id="6eaZjsca8hp" role="3biEpM">
+        <node concept="1JFoOF" id="6eaZjsca8hr" role="35fFvO">
           <property role="TrG5h" value="dough" />
         </node>
       </node>
