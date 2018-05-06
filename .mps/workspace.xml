@@ -8,10 +8,7 @@
   <component name="ChangeListManager">
     <list default="true" id="21489694-8da7-4417-8380-3d32d344fbed" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.mps/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.mps/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/whip/models/behavior.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/whip/models/behavior.mps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/whip/models/editor.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/whip/models/editor.mps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/whip/models/structure.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/whip/models/structure.mps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/whip/sandbox/models/whip.sandbox.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/whip/sandbox/models/whip.sandbox.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec.md" beforeDir="false" afterPath="$PROJECT_DIR$/spec.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -90,10 +87,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Bread" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Bread" pinned="false" current-in-tab="false">
         <entry file="mps://node://whip.sandbox/whip.sandbox/Bread">
           <provider selected="true" editor-type-id="MPSFileEditor">
-            <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState" editorFocused="true">
+            <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
               <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
                 <selectionStack>
                   <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
@@ -111,7 +108,7 @@
                 <foldable />
                 <restoreAlways />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:14123f17-6cd6-458b-b066-57bb706c9233(whip.sandbox)/2030988144087889303" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:52ee01ab-922b-45b8-b769-e1f38403c874(whip.structure)/2620569832670503034" saveSessionState="false" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <transactionalProperties />
@@ -144,7 +141,7 @@
                 <foldable />
                 <restoreAlways />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:14123f17-6cd6-458b-b066-57bb706c9233(whip.sandbox)/2030988144087889303" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:52ee01ab-922b-45b8-b769-e1f38403c874(whip.structure)/2620569832670503034" saveSessionState="false" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <transactionalProperties />
@@ -178,7 +175,7 @@
                 <foldable />
                 <restoreAlways />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:14123f17-6cd6-458b-b066-57bb706c9233(whip.sandbox)/2030988144087889303" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:52ee01ab-922b-45b8-b769-e1f38403c874(whip.structure)/2620569832670503034" saveSessionState="false" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <transactionalProperties />
@@ -212,7 +209,7 @@
                 <foldable />
                 <restoreAlways />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:14123f17-6cd6-458b-b066-57bb706c9233(whip.sandbox)/2030988144087889303" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:52ee01ab-922b-45b8-b769-e1f38403c874(whip.structure)/2620569832670503034" saveSessionState="false" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <transactionalProperties />
@@ -246,7 +243,7 @@
                 <foldable />
                 <restoreAlways />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:14123f17-6cd6-458b-b066-57bb706c9233(whip.sandbox)/2030988144087889303" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:52ee01ab-922b-45b8-b769-e1f38403c874(whip.structure)/2620569832670503034" saveSessionState="false" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <transactionalProperties />
@@ -259,19 +256,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ItIngredient" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ItIngredient" pinned="false" current-in-tab="true">
         <entry file="mps://node://whip/whip.structure/ItIngredient">
           <provider selected="true" editor-type-id="MPSFileEditor">
-            <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
+            <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState" editorFocused="true">
               <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
                 <selectionStack>
                   <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                     <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretX" value="71" />
-                    <property name="caretXRelative" value="56" />
+                    <property name="caretX" value="567" />
+                    <property name="caretXRelative" value="504" />
                     <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="Constant_ueqr71_c0a">
-                      <node node_reference="r:52ee01ab-922b-45b8-b769-e1f38403c874(whip.structure)/2620569832670503033" />
+                    <cellInfo cellId="property_text">
+                      <node node_reference="r:52ee01ab-922b-45b8-b769-e1f38403c874(whip.structure)/2620569832670503034" />
                     </cellInfo>
                   </stackElement>
                 </selectionStack>
@@ -280,7 +277,7 @@
                 <foldable />
                 <restoreAlways />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:14123f17-6cd6-458b-b066-57bb706c9233(whip.sandbox)/2030988144087889303" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:52ee01ab-922b-45b8-b769-e1f38403c874(whip.structure)/2620569832670503034" saveSessionState="false" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <transactionalProperties />
@@ -336,7 +333,7 @@
                   </collapsedElement>
                 </restoreAlways>
               </memento>
-              <inspectorMemento currentlyEditedNode="r:14123f17-6cd6-458b-b066-57bb706c9233(whip.sandbox)/2030988144087889303" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:52ee01ab-922b-45b8-b769-e1f38403c874(whip.structure)/2620569832670503034" saveSessionState="false" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <transactionalProperties />
@@ -387,7 +384,7 @@
                   </collapsedElement>
                 </restoreAlways>
               </memento>
-              <inspectorMemento currentlyEditedNode="r:14123f17-6cd6-458b-b066-57bb706c9233(whip.sandbox)/2030988144087889303" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:52ee01ab-922b-45b8-b769-e1f38403c874(whip.structure)/2620569832670503034" saveSessionState="false" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <transactionalProperties />
@@ -421,7 +418,7 @@
                 <foldable />
                 <restoreAlways />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:14123f17-6cd6-458b-b066-57bb706c9233(whip.sandbox)/2030988144087889303" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:52ee01ab-922b-45b8-b769-e1f38403c874(whip.structure)/2620569832670503034" saveSessionState="false" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <transactionalProperties />
@@ -455,7 +452,7 @@
                 <foldable />
                 <restoreAlways />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:14123f17-6cd6-458b-b066-57bb706c9233(whip.sandbox)/2030988144087889303" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:52ee01ab-922b-45b8-b769-e1f38403c874(whip.structure)/2620569832670503034" saveSessionState="false" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <transactionalProperties />
@@ -563,31 +560,11 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="r:dd807560-def2-44e4-b494-64724e110303(whip.behavior) in IdeaFile[file:///Users/marcopennekamp/Work/whip/languages/whip/models/behavior.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="feb4e5e0-84b4-4e2b-9f1d-56305190da21(whip)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="r:52ee01ab-922b-45b8-b769-e1f38403c874(whip.structure) in IdeaFile[file:///Users/marcopennekamp/Work/whip/languages/whip/models/structure.mps]" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="affixes" />
+              <option name="myItemId" value="recipe" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -619,6 +596,102 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="r:b9cf3f97-11d4-4877-95d5-4fff9da30585(whip.editor) in IdeaFile[file:///Users/marcopennekamp/Work/whip/languages/whip/models/editor.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="units" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="feb4e5e0-84b4-4e2b-9f1d-56305190da21(whip)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:dd807560-def2-44e4-b494-64724e110303(whip.behavior) in IdeaFile[file:///Users/marcopennekamp/Work/whip/languages/whip/models/behavior.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="feb4e5e0-84b4-4e2b-9f1d-56305190da21(whip)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:52ee01ab-922b-45b8-b769-e1f38403c874(whip.structure) in IdeaFile[file:///Users/marcopennekamp/Work/whip/languages/whip/models/structure.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="units" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="feb4e5e0-84b4-4e2b-9f1d-56305190da21(whip)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:52ee01ab-922b-45b8-b769-e1f38403c874(whip.structure) in IdeaFile[file:///Users/marcopennekamp/Work/whip/languages/whip/models/structure.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="feb4e5e0-84b4-4e2b-9f1d-56305190da21(whip)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:b9cf3f97-11d4-4877-95d5-4fff9da30585(whip.editor) in IdeaFile[file:///Users/marcopennekamp/Work/whip/languages/whip/models/editor.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="feb4e5e0-84b4-4e2b-9f1d-56305190da21(whip)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:52ee01ab-922b-45b8-b769-e1f38403c874(whip.structure) in IdeaFile[file:///Users/marcopennekamp/Work/whip/languages/whip/models/structure.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="affixes" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="feb4e5e0-84b4-4e2b-9f1d-56305190da21(whip)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="r:b95b4fda-b02f-41f7-9a38-3a9794179f06(whip.constraints) in IdeaFile[file:///Users/marcopennekamp/Work/whip/languages/whip/models/constraints.mps]" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
@@ -633,39 +706,11 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="r:52ee01ab-922b-45b8-b769-e1f38403c874(whip.structure) in IdeaFile[file:///Users/marcopennekamp/Work/whip/languages/whip/models/structure.mps]" />
+              <option name="myItemId" value="r:b9cf3f97-11d4-4877-95d5-4fff9da30585(whip.editor) in IdeaFile[file:///Users/marcopennekamp/Work/whip/languages/whip/models/editor.mps]" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="instructions" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="feb4e5e0-84b4-4e2b-9f1d-56305190da21(whip)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:52ee01ab-922b-45b8-b769-e1f38403c874(whip.structure) in IdeaFile[file:///Users/marcopennekamp/Work/whip/languages/whip/models/structure.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="units" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="b1d597ee-52b2-4f1d-87fa-73aae046ccb9" />
+              <option name="myItemId" value="ingredients" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -697,11 +742,11 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="r:b9cf3f97-11d4-4877-95d5-4fff9da30585(whip.editor) in IdeaFile[file:///Users/marcopennekamp/Work/whip/languages/whip/models/editor.mps]" />
+              <option name="myItemId" value="r:b95b4fda-b02f-41f7-9a38-3a9794179f06(whip.constraints) in IdeaFile[file:///Users/marcopennekamp/Work/whip/languages/whip/models/constraints.mps]" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="units" />
+              <option name="myItemId" value="instructions" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -711,11 +756,19 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="b1d597ee-52b2-4f1d-87fa-73aae046ccb9" />
+              <option name="myItemId" value="feb4e5e0-84b4-4e2b-9f1d-56305190da21(whip)" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="whip" />
+              <option name="myItemId" value="r:52ee01ab-922b-45b8-b769-e1f38403c874(whip.structure) in IdeaFile[file:///Users/marcopennekamp/Work/whip/languages/whip/models/structure.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="affixes" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="state" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -760,12 +813,18 @@
               <option name="myItemId" value="Project" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="feb4e5e0-84b4-4e2b-9f1d-56305190da21(whip)" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="r:b95b4fda-b02f-41f7-9a38-3a9794179f06(whip.constraints) in IdeaFile[file:///Users/marcopennekamp/Work/whip/languages/whip/models/constraints.mps]" />
+              <option name="myItemId" value="r:52ee01ab-922b-45b8-b769-e1f38403c874(whip.structure) in IdeaFile[file:///Users/marcopennekamp/Work/whip/languages/whip/models/structure.mps]" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -779,7 +838,11 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="feb4e5e0-84b4-4e2b-9f1d-56305190da21(whip)" />
+              <option name="myItemId" value="b1d597ee-52b2-4f1d-87fa-73aae046ccb9" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="whip" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -792,18 +855,6 @@
               <option name="myItemId" value="feb4e5e0-84b4-4e2b-9f1d-56305190da21(whip)" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:52ee01ab-922b-45b8-b769-e1f38403c874(whip.structure) in IdeaFile[file:///Users/marcopennekamp/Work/whip/languages/whip/models/structure.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="affixes" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="state" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -811,67 +862,29 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="feb4e5e0-84b4-4e2b-9f1d-56305190da21(whip)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:b9cf3f97-11d4-4877-95d5-4fff9da30585(whip.editor) in IdeaFile[file:///Users/marcopennekamp/Work/whip/languages/whip/models/editor.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="feb4e5e0-84b4-4e2b-9f1d-56305190da21(whip)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:52ee01ab-922b-45b8-b769-e1f38403c874(whip.structure) in IdeaFile[file:///Users/marcopennekamp/Work/whip/languages/whip/models/structure.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="feb4e5e0-84b4-4e2b-9f1d-56305190da21(whip)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:52ee01ab-922b-45b8-b769-e1f38403c874(whip.structure) in IdeaFile[file:///Users/marcopennekamp/Work/whip/languages/whip/models/structure.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="recipe" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="feb4e5e0-84b4-4e2b-9f1d-56305190da21(whip)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:b9cf3f97-11d4-4877-95d5-4fff9da30585(whip.editor) in IdeaFile[file:///Users/marcopennekamp/Work/whip/languages/whip/models/editor.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ingredients" />
+              <option name="myItemId" value="b1d597ee-52b2-4f1d-87fa-73aae046ccb9" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
           <SELECTED>
             <PATH_ELEMENT>
               <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="feb4e5e0-84b4-4e2b-9f1d-56305190da21(whip)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:52ee01ab-922b-45b8-b769-e1f38403c874(whip.structure) in IdeaFile[file:///Users/marcopennekamp/Work/whip/languages/whip/models/structure.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ingredients" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="2620569832670503033" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </SELECTED>
@@ -1504,38 +1517,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="mps://node://whip/whip.structure/ItIngredient">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
-          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="71" />
-                <property name="caretXRelative" value="56" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="Constant_ueqr71_c0a">
-                  <node node_reference="r:52ee01ab-922b-45b8-b769-e1f38403c874(whip.structure)/2620569832670503033" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:14123f17-6cd6-458b-b066-57bb706c9233(whip.sandbox)/2030988144087889303" saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-            <enabledHints />
-          </inspectorMemento>
-          <node node_ref="r:52ee01ab-922b-45b8-b769-e1f38403c874(whip.structure)/2620569832670503033" />
-        </state>
-      </provider>
-    </entry>
     <entry file="mps://node://whip/whip.structure/Add">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
@@ -1556,7 +1537,7 @@
             <foldable />
             <restoreAlways />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:14123f17-6cd6-458b-b066-57bb706c9233(whip.sandbox)/2030988144087889303" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:52ee01ab-922b-45b8-b769-e1f38403c874(whip.structure)/2620569832670503034" saveSessionState="false" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <transactionalProperties />
@@ -1588,7 +1569,7 @@
             <foldable />
             <restoreAlways />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:14123f17-6cd6-458b-b066-57bb706c9233(whip.sandbox)/2030988144087889303" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:52ee01ab-922b-45b8-b769-e1f38403c874(whip.structure)/2620569832670503034" saveSessionState="false" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <transactionalProperties />
@@ -1642,7 +1623,7 @@
               </collapsedElement>
             </restoreAlways>
           </memento>
-          <inspectorMemento currentlyEditedNode="r:14123f17-6cd6-458b-b066-57bb706c9233(whip.sandbox)/2030988144087889303" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:52ee01ab-922b-45b8-b769-e1f38403c874(whip.structure)/2620569832670503034" saveSessionState="false" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <transactionalProperties />
@@ -1691,7 +1672,7 @@
               </collapsedElement>
             </restoreAlways>
           </memento>
-          <inspectorMemento currentlyEditedNode="r:14123f17-6cd6-458b-b066-57bb706c9233(whip.sandbox)/2030988144087889303" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:52ee01ab-922b-45b8-b769-e1f38403c874(whip.structure)/2620569832670503034" saveSessionState="false" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <transactionalProperties />
@@ -1723,7 +1704,7 @@
             <foldable />
             <restoreAlways />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:14123f17-6cd6-458b-b066-57bb706c9233(whip.sandbox)/2030988144087889303" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:52ee01ab-922b-45b8-b769-e1f38403c874(whip.structure)/2620569832670503034" saveSessionState="false" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <transactionalProperties />
@@ -1755,7 +1736,7 @@
             <foldable />
             <restoreAlways />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:14123f17-6cd6-458b-b066-57bb706c9233(whip.sandbox)/2030988144087889303" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:52ee01ab-922b-45b8-b769-e1f38403c874(whip.structure)/2620569832670503034" saveSessionState="false" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <transactionalProperties />
@@ -1787,7 +1768,7 @@
             <foldable />
             <restoreAlways />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:14123f17-6cd6-458b-b066-57bb706c9233(whip.sandbox)/2030988144087889303" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:52ee01ab-922b-45b8-b769-e1f38403c874(whip.structure)/2620569832670503034" saveSessionState="false" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <transactionalProperties />
@@ -1819,7 +1800,7 @@
             <foldable />
             <restoreAlways />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:14123f17-6cd6-458b-b066-57bb706c9233(whip.sandbox)/2030988144087889303" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:52ee01ab-922b-45b8-b769-e1f38403c874(whip.structure)/2620569832670503034" saveSessionState="false" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <transactionalProperties />
@@ -1833,7 +1814,7 @@
     </entry>
     <entry file="mps://node://whip.sandbox/whip.sandbox/Bread">
       <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState" editorFocused="true">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
           <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
             <selectionStack>
               <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
@@ -1851,7 +1832,7 @@
             <foldable />
             <restoreAlways />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:14123f17-6cd6-458b-b066-57bb706c9233(whip.sandbox)/2030988144087889303" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:52ee01ab-922b-45b8-b769-e1f38403c874(whip.structure)/2620569832670503034" saveSessionState="false" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <transactionalProperties />
@@ -1859,6 +1840,38 @@
             <restoreAlways />
             <enabledHints />
           </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://whip/whip.structure/ItIngredient">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState" editorFocused="true">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="567" />
+                <property name="caretXRelative" value="504" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_text">
+                  <node node_reference="r:52ee01ab-922b-45b8-b769-e1f38403c874(whip.structure)/2620569832670503034" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:52ee01ab-922b-45b8-b769-e1f38403c874(whip.structure)/2620569832670503034" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints />
+          </inspectorMemento>
+          <node node_ref="r:52ee01ab-922b-45b8-b769-e1f38403c874(whip.structure)/2620569832670503033" />
         </state>
       </provider>
     </entry>

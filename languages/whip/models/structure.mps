@@ -293,7 +293,7 @@
     <property role="34LRSv" value="it" />
     <ref role="1TJDcQ" node="6eaZjsca8hJ" resolve="IngredientValue" />
     <node concept="t5JxF" id="2hu8A3xry1U" role="lGtFl">
-      <property role="t5JxN" value="A pseudo ingredient that refers to the current context." />
+      <property role="t5JxN" value="A pseudo ingredient that refers to the current context mixture." />
     </node>
   </node>
   <node concept="1TIwiD" id="6eaZjsc9R0s">
